@@ -85,7 +85,6 @@ class OnlineCorrection:
 
     def apply(self,stamp,cart_matrix,odom_msg):
         from mentor_benchmark import Sequence,features,increments,add_increment,wrap_angle
-        from geometry_msgs.msg import PoseStamped
         if stamp-self.last_time < .099:return
         start=time.perf_counter_ns()
         if odom_msg is None or not 0<=stamp-odom_msg.header.stamp.to_sec()<=.15:

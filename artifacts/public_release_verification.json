@@ -110,5 +110,10 @@
     "run": 51,
     "passed": 51,
     "optional_cartographer_proto_test": "tested with original pinned source checkout"
+  },
+  "full_c20_retraining": {
+    "max_weight_difference": 0.0,
+    "all_gate_parameters_equal": true,
+    "scope": "C20 seed11 retrained under the original Torch2.4.1 CPU stack from included recorded inputs."
   }
 }

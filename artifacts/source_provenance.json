@@ -68,7 +68,8 @@
     "read_tum transparently supports .tum.gz; numeric parsing is unchanged.",
     "CARTOGRAPHER_INSTALL replaces the original machine-specific binary path.",
     "CARTOGRAPHER_SOURCE replaces the original machine-specific protobuf path.",
-    "Frozen Q44 replay accepts compressed references and explicit same-strength alpha controls."
+    "Frozen Q44 replay accepts compressed references and explicit same-strength alpha controls.",
+    "Unused ROS message import removed from pure correction; actual publisher still imports ROS."
   ],
   "captured_inputs": {
     "artifacts/recorded_inputs/home1-1/cartographer_noimu_sampled_stream_unified_inputs.npz": {
