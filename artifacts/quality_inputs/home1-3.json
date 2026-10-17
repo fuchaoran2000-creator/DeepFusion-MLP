@@ -1,0 +1,26 @@
+{
+  "sequence": "home1-3",
+  "samples": 879,
+  "quality_present_fraction": 1.0,
+  "bag": "data/prepared/home1-3/slam_inputs.bag",
+  "captured_stream_sha256": "78d3631586fb19f649ba67015b539ac76522f3ec1a48d79f1f96752e48cad61b",
+  "input_uses_gt": false,
+  "quality_kind": "source-causal geometric proxies and timestamp ages",
+  "arrival_limitation": "historical scan callback arrival times unavailable; source timestamp causality only",
+  "scan_end": "header + last sensor-valid beam index * time_increment, matching Cartographer conversion",
+  "cartographer_range_max_m": 10.0,
+  "quality_names": [
+    "cart_age_s",
+    "odom_age_s",
+    "scan_age_s",
+    "near_hit_fraction",
+    "far_hit_fraction",
+    "sensor_hit_fraction",
+    "near_median_scaled",
+    "near_iqr_scaled",
+    "near_angular_coverage",
+    "near_centroid_scaled",
+    "near_covariance_isotropy",
+    "scan_present"
+  ]
+}

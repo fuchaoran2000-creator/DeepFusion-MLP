@@ -1,0 +1,6 @@
+training,scene,sequences,raw_ape_m,corrected_ape_m,ape_gain_percent,fallback_percent,source
+Home1-1,Office (7),"['office1-1', 'office1-2', 'office1-3', 'office1-4', 'office1-5', 'office1-6', 'office1-7']",0.09815839999895662,0.12094663692213183,-23.215778704030868,38.89532430114853,results/mentor_benchmark/home_frozen_transfer_office_cafe_v1/benchmark.csv
+Home1-1,Cafe (2),"['cafe1-1', 'cafe1-2']",0.26338922677217946,0.2813537457356544,-6.820521546621001,35.95730148508089,results/mentor_benchmark/home_frozen_transfer_office_cafe_v1/benchmark.csv
+Home1-1,Corridor (3),"['corridor1-3', 'corridor1-4', 'corridor1-5']",0.7270333507090662,0.7284365993446874,-0.19301021531580026,60.80691281522676,results/mentor_benchmark/home_frozen_transfer_corridor_v1/benchmark.csv
+Home1-1,NCLT: initial,['nclt-2013-01-10'],315.54887043041083,315.54887044332753,-4.093407331922792e-09,99.83430799220272,results/mentor_benchmark/home_frozen_transfer_nclt_v1/benchmark.csv
+Home1-1,NCLT: adapted,['nclt-2013-01-10'],16.573834637764122,16.573823021268392,7.008936666541847e-05,98.07992202729045,results/mentor_benchmark/home_frozen_transfer_nclt_frontend_v2/benchmark.csv

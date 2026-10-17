@@ -1,0 +1,10 @@
+event,gate,grid_samples,interval_fallback_fraction,first_fallback_offset_s,first_accept_after_event_s,input_available_fraction,measurement_scope
+odometry_drop,none,20,0.95,0.1821732521057129,0.3821732997894287,0.05,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+odometry_drop,rule,20,0.95,0.1821732521057129,0.3821732997894287,0.05,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+odometry_drop,uncertainty,20,1.0,0.08217334747314453,0.3821732997894287,0.05,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+odometry_clock_bias_monotonic,none,20,0.0,,0.08217334747314453,1.0,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+odometry_clock_bias_monotonic,rule,20,0.05,1.9821734428405762,0.5821733474731445,1.0,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+odometry_clock_bias_monotonic,uncertainty,20,0.15,1.0821733474731445,0.5821733474731445,1.0,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+laser_no_returns,none,20,0.0,,0.08217334747314453,1.0,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+laser_no_returns,rule,20,1.0,0.08217334747314453,0.08217334747314453,1.0,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+laser_no_returns,uncertainty,20,1.0,0.08217334747314453,0.08217334747314453,1.0,"Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."

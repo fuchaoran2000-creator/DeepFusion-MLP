@@ -1,0 +1,38 @@
+{
+  "sequence": "home1-3_raw_fault_v2",
+  "source_sequence": "home1-3",
+  "source_start_t": 1560200044.0123768,
+  "bag_duration_s": 87.98367762565613,
+  "events": [
+    {
+      "kind": "odometry_drop",
+      "topic": "/odom",
+      "start_offset_s": 15.0,
+      "end_offset_s": 17.0
+    },
+    {
+      "kind": "odometry_clock_bias_monotonic",
+      "topic": "/odom",
+      "start_offset_s": 35.0,
+      "end_offset_s": 37.0,
+      "offset_s": 0.3,
+      "ramp_s": 0.5,
+      "interpretation": "0 to +300ms in 0.5s, hold 1s, return in 0.5s; source timestamps remain ordered."
+    },
+    {
+      "kind": "laser_no_returns",
+      "topic": "/scan",
+      "start_offset_s": 55.0,
+      "end_offset_s": 57.0
+    }
+  ],
+  "model_selection": "Frozen previously; no tuning on faults.",
+  "scope": "Synthetic raw sensor faults through SLAM and output correction; not real human-motion annotations.",
+  "reference_in_slam_bag": false,
+  "counts": {
+    "odom_dropped": 40,
+    "odom_shifted": 40,
+    "scans_occluded": 81
+  },
+  "prepared_bag_sha256": "fd9459be0c837607578331c5d1448b9bdf230810c44da869a7ac9e098fb66699"
+}

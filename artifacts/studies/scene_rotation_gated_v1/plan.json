@@ -1,0 +1,413 @@
+{
+  "folds": [
+    {
+      "fold_id": "test_home_val_office",
+      "train": [
+        "cafe1-1",
+        "cafe1-2",
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "validation": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "test": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_home_val_cafe",
+      "train": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7",
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "validation": [
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "test": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_home_val_corridor",
+      "train": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7",
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "validation": [
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "test": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_office_val_home",
+      "train": [
+        "cafe1-1",
+        "cafe1-2",
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "validation": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5"
+      ],
+      "test": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_office_val_cafe",
+      "train": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5",
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "validation": [
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "test": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_office_val_corridor",
+      "train": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5",
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "validation": [
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "test": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_cafe_val_home",
+      "train": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7",
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "validation": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5"
+      ],
+      "test": [
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_cafe_val_office",
+      "train": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5",
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "validation": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "test": [
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_cafe_val_corridor",
+      "train": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5",
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "validation": [
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "test": [
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_corridor_val_home",
+      "train": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7",
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "validation": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5"
+      ],
+      "test": [
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_corridor_val_office",
+      "train": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5",
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "validation": [
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "test": [
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    },
+    {
+      "fold_id": "test_corridor_val_cafe",
+      "train": [
+        "home1-1",
+        "home1-2",
+        "home1-3",
+        "home1-4",
+        "home1-5",
+        "office1-1",
+        "office1-2",
+        "office1-3",
+        "office1-4",
+        "office1-5",
+        "office1-6",
+        "office1-7"
+      ],
+      "validation": [
+        "cafe1-1",
+        "cafe1-2"
+      ],
+      "test": [
+        "corridor1-3",
+        "corridor1-4",
+        "corridor1-5"
+      ],
+      "external_test": [
+        "nclt-2013-01-10"
+      ]
+    }
+  ],
+  "feature": "quality44",
+  "losses": [
+    "frame",
+    "continuous",
+    "gated_reset"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "parameter_count": 9318,
+  "epochs": 100,
+  "warmup_epochs": 5,
+  "warmup": "identical model/optimizer/batch order per seed before loss branches",
+  "gate_thresholds": "training input-only warmup P90 sigma/P99 max-z, frozen for training and deployment",
+  "common_early_stop": "complete validation APE under fixed alpha=1/tau=30s and frozen gate",
+  "horizon_frames": [
+    10,
+    30,
+    50
+  ],
+  "window_frames": 50,
+  "stride_frames": 20,
+  "gated_training_alphas": [
+    0.05,
+    0.1,
+    0.15000000000000002,
+    0.2,
+    0.25,
+    0.30000000000000004,
+    0.35000000000000003,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6000000000000001,
+    0.65,
+    0.7000000000000001,
+    0.75,
+    0.8,
+    0.8500000000000001,
+    0.9,
+    0.9500000000000001,
+    1.0
+  ],
+  "gated_training_tau_candidates_s": [
+    null,
+    5.0,
+    30.0
+  ],
+  "rejection_augmentation": "20% of windows receive one two-frame confidence rejection block; features unchanged",
+  "runtime_match": "same gate comparisons, clip, SE2 recursion, tau damping and exact raw reset; each training window starts at raw origin",
+  "limitations": [
+    "all public development scenes previously inspected",
+    "rotating validation changes training scenes too",
+    "short-window objective excludes pre-window accumulated offset",
+    "quality is source-causal reconstructed geometry, not match score",
+    "no new independently collected data or actual edge hardware"
+  ],
+  "external_nclt_parameters_frozen_before_reference_load": true
+}

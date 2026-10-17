@@ -1,0 +1,114 @@
+{
+  "scope": "Clean public tree verified; no new complete ROS/SLAM execution or physical-device test.",
+  "passed": true,
+  "table4": {
+    "passed": true,
+    "reference_in_inference": false,
+    "sequences": [
+      {
+        "sequence": "home1-3",
+        "frames": 879,
+        "raw_ape_m": 0.17098368869542344,
+        "corrected_ape_m": 0.10495594628922779,
+        "raw_rpe_1s_m": 0.03602867691487337,
+        "corrected_rpe_1s_m": 0.036380128208045155,
+        "fallback_fraction": 0.28100113765642776,
+        "valid_fraction": 0.9203640500568828,
+        "pose_component_max_error": 1.9378802562641795e-08
+      },
+      {
+        "sequence": "home1-4",
+        "frames": 710,
+        "raw_ape_m": 0.1496984350958959,
+        "corrected_ape_m": 0.09276150648773566,
+        "raw_rpe_1s_m": 0.04496915101656367,
+        "corrected_rpe_1s_m": 0.04341979712335226,
+        "fallback_fraction": 0.2,
+        "valid_fraction": 0.9253521126760563,
+        "pose_component_max_error": 1.944139604859174e-08
+      },
+      {
+        "sequence": "home1-5",
+        "frames": 260,
+        "raw_ape_m": 0.16874638545509885,
+        "corrected_ape_m": 0.1064265864649226,
+        "raw_rpe_1s_m": 0.052969977489665136,
+        "corrected_rpe_1s_m": 0.05425366093829815,
+        "fallback_fraction": 0.23461538461538461,
+        "valid_fraction": 0.8769230769230769,
+        "pose_component_max_error": 1.452506392940478e-08
+      }
+    ],
+    "macro_ape_raw_m": 0.16314283641547273,
+    "macro_ape_corrected_m": 0.10138134641396201,
+    "scope": "Frozen-recorded-input replay; no new ROS run, training, threshold fitting or test-based selection."
+  },
+  "table7": {
+    "passed": true,
+    "rows": [
+      {
+        "scene": "Office (7)",
+        "raw_ape_m": 0.09815839999895662,
+        "corrected_ape_m": 0.12094663692213183,
+        "gain_percent": -23.215778704030868
+      },
+      {
+        "scene": "Cafe (2)",
+        "raw_ape_m": 0.26338922677217946,
+        "corrected_ape_m": 0.2813537457356544,
+        "gain_percent": -6.820521546621001
+      },
+      {
+        "scene": "Corridor (3)",
+        "raw_ape_m": 0.7270333507090662,
+        "corrected_ape_m": 0.7284365993446874,
+        "gain_percent": -0.19301021531580026
+      },
+      {
+        "scene": "NCLT: initial",
+        "raw_ape_m": 315.54887043041083,
+        "corrected_ape_m": 315.54887044332753,
+        "gain_percent": -4.093407331922792e-09
+      },
+      {
+        "scene": "NCLT: adapted",
+        "raw_ape_m": 16.573834637764122,
+        "corrected_ape_m": 16.573823021268392,
+        "gain_percent": 7.008936666541847e-05
+      }
+    ],
+    "scope": "Archived score aggregation and source hashes only; no new inference, fitting or SLAM execution."
+  },
+  "training_smoke": {
+    "passed": true,
+    "epochs": 2,
+    "scope": "Execution and data portability only; not a retrained reproduction of paper accuracy."
+  },
+  "transfer_inference": {
+    "passed": true,
+    "scope": "New inference on recorded inputs with frozen C20, not a new ROS execution."
+  },
+  "q44_same_strength": {
+    "feature_error_max": 0.0,
+    "torch_replay_pose_error_max": 0.0,
+    "publication_error_max": 1.562419527090242e-09,
+    "exact_raw_fallback": true,
+    "effective_alpha_by_gate": {
+      "none": 0.7000000000000001,
+      "rule": 0.7000000000000001,
+      "uncertainty": 0.7000000000000001
+    },
+    "same_alpha_and_tau_for_all_gates": true,
+    "reference_access_after_inference": true,
+    "outside_fault_fallback_fraction": {
+      "none": 0.004884004884004884,
+      "rule": 0.019536019536019536,
+      "uncertainty": 0.08302808302808302
+    }
+  },
+  "unit_tests": {
+    "run": 51,
+    "passed": 51,
+    "optional_cartographer_proto_test": "tested with original pinned source checkout"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/home/fuchaoran/cartographer_home1/results/mentor_benchmark/home_causal_v1/mlp_full20_pose_uncertainty_seed11/model.pt",
+    "sha256": "f4a6f98f890cbfba755007f6b1e1bae9f9ba1e5d3f5be61a239e7e0dc4c5e3a2",
+    "alpha": 0.65,
+    "seed": 11
+  },
+  {
+    "path": "/home/fuchaoran/cartographer_home1/results/mentor_benchmark/home_causal_v1/mlp_relative32_increment_uncertainty_seed22/model.pt",
+    "sha256": "3cc33735d6e0421d27cbd00707eb417ef7066ffb701eb197575fadf23d610488",
+    "alpha": 1.0,
+    "seed": 22
+  }
+]

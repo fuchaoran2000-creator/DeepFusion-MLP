@@ -1,0 +1,224 @@
+{
+  "original_sources": {
+    "trajectory_objective.py": "a795fce985a959df2adfed9a1fca6790efb0d3de4ee7738db2ac7a36840ee304",
+    "trajectory_quality.py": "905f7fe88406125200cb36657c21eed746947aafd99338a6ca120b076b236210",
+    "deepfusion_mlp.py": "dbd5f02c6f8ccabf5fa18daf913317470b7fb11414109d9ddcfef399368bae9f",
+    "residual_models.py": "604ef1e6329b0b323832ec86167626f1abf72a04be0615b337c3356cf1370020",
+    "gate_stress.py": "c415e7e9fe550863e9a354f7866d19f2aa0cffd76ade48af07db45bf09cc525b",
+    "visualize_results.py": "a3abc66b23b43eb65f885be88850edf9b5c5d20bf474c77d503555cdb73f15c6",
+    "deepfusion_mlp_infer_relative.py": "17b075aa29388f0ecc392c47e1c9f5b9006ab45c009033acf20468de10934c2e",
+    "extract_to_tum.py": "790f934b5d3a5f19415e9b32410c1bc6d57879e22311edc6403d97ca444ac03f",
+    "causal_stream.py": "ebfd45a9722041d4bdcc6a03fcb515ee1c47a93a7dbd20a2dfff0314df513adb",
+    "nclt_binary.py": "9162690b43c7c35086cbfdffbe4be9c3413623381c73a300155292bf12295fbc",
+    "mentor_benchmark.py": "9a91c7315f8f39ea65032dba1a210dc8c99972e4af59d68da389fcfb97259898",
+    "deepfusion_mlp_train_generalization.py": "84ccdf95ec2d19c7b8b8058cf9efde42c010876328db823e4a2671af69f9bcf8",
+    "gated_objective.py": "37a68001a677aab9436cf39a757d6c2aab585070e4c23e2bb9d66a19eefc7493",
+    "t265_imu_combiner.py": "961ad07258c2aae1e4cf1e52fb9a0754ffcb82393d205346e126fa437e43cf32",
+    "portable_residual.py": "ff28b62527fb7220178d6ffb82e48e759901a6dba4d8dca3ec81b44e17815538",
+    "deepfusion_mlp_train_relative_v2.py": "4121598a7a40381407b61e188da5544b0cc5797786d225afaf2d54f43190a9c8",
+    "tools/prepare_rosbags.py": "4b324d3481df7425a5d68cf7634e794663b2288f3c9ab0f5582abd8e55d8ce09",
+    "tools/prepare_nclt.py": "188391e0d90715c96505bc061ead417dcd0a54ba78cdf32db32ff818ca7e6cfa",
+    "tools/replay_cartographer.py": "1ba7a6ffe6832c7f2d0549265372a5e68bf17a38cf6f2590b3c30dd3aa9d8f6b",
+    "tools/online_ros_benchmark.py": "6ee312756be42039b5fc02826ffd3da618a7979ddc5ec07810410759f5b2aa98",
+    "tools/train_causal_feature_ablation.py": "571f3d6c55933518bc9ed1daba0faa017d1818d6e37ab76e565058b097ffc664",
+    "tools/train_trajectory_quality.py": "97c1dde6fd03737dd4c5a82a4542c7bca8b91209e938e4bc00c18b0490c5f61a",
+    "tools/train_scene_rotation.py": "104db2dc511ebad6af2182973e8f4bf838fedbfd456deef6248fad1e4306ca57",
+    "tools/prepare_quality_features.py": "9af8b64f5adaf0c2011ccea450b50168c1d73593534791fa97dcfc51116ba4b8",
+    "tools/benchmark_gate_stress.py": "038b72686b5ebcd4b7e356f7eb9ece8e8ba6167d197a67512d90db7738a12a0e",
+    "tools/evaluate_causal_external.py": "0c569e0b66f257d7de99d223449c02faf1a31f2ed9caaa97a64e26ec32d4da1b",
+    "tools/select_causal_deployment.py": "7994078db7c5e3e7c2c9dc31249bfd04fe66269676813b6f115ed70423864052",
+    "tools/diagnose_causal_validation.py": "fa1548dad8e6f3728ffae85cb8bf5ecda7c5f73bd7703286d850ce2b3f974393",
+    "tools/verify_causal_stream.py": "6a1baaf74c09ed961a320e1ac004ecd731dd59250321654d04332d3c49eddd56",
+    "tools/verify_quality_online.py": "8da65fa26ecf7a25cee1956743ee6d9e34ecaa1067d658f540b4f5e9745ebe14",
+    "tools/verify_quality_packages.py": "dffc6113c5d55f5e8a08e5651f4445769c44475ade5096871691c2a7eeb7cc4c",
+    "tools/export_portable.py": "82479fa0e3b6aceb5e91ae62d164a293a3f512c91d98b50a7fc7f9e5c94a6cad",
+    "tools/export_trajectory_quality.py": "fedb1754ef0fa17f8e36d777780735a68a3ae49721eb7bbaa44cfedd3a2cbc1c",
+    "tools/benchmark_portable.py": "c0cc2f1d618eb8e82e746860e637ff2f33af1866b881bb83bd375b28fcc3f1af",
+    "tools/benchmark_quality_portable.py": "9b12b2f29849d2968c1494ae55f9e444ca529218ca868b62421184991a9b1c85",
+    "tools/benchmark_gpu.py": "8817283a22ba3fb4413920a06732a5daffa98941c0652f4866c8b1de83bf7cbb",
+    "tools/benchmark_postprocessing_resources.py": "e2d047eb647425941cf3ab7f52d0502ff6764d0c607069876e1b9e955c876df1",
+    "tools/evaluate_unified_online_comparison.py": "6693f978e77b059fb6507b2ded847f31c051a99bc7982617ad87e1502799778e",
+    "tools/evaluate_frozen_quality_stream.py": "9ae5ddc57baaa4865e631b64de2450619342462f47ea26a9b056f79ee97d28cc",
+    "tools/prepare_raw_fault_test.py": "5b4b29e98ef87f1981ffbe6d197a571326afffd89d9c60662af5214432a8140f",
+    "tools/stress_trajectory_quality.py": "94cd80f7c929118013f65b81724d9fb775da5893281464ca0fe297d2ffa86d88",
+    "tools/benchmark_increment_memory.py": "c616bdc9e16c324cbea714caa542045638a57b689218f347a1666755b626003e",
+    "tools/export_increment_memory_candidate.py": "ba50deb231c8273b54626587f3af68a168714288e2c541176d6a38dfade38f62",
+    "tools/freeze_rotation_calibration.py": "18abf2add0e04783aae47f9eb0ac085ca0be2b761a948b468973101533c083c2",
+    "tools/freeze_final_public_test.py": "dbf815e5a5d36db3497489a2fa09247d74394a96e3692c4f2b1bd3599899d10a",
+    "tools/run_nclt_diagnostics.py": "43d7c98a9773b65616a92459e70342cdca5278a0be7087942a0a5986806cfd55",
+    "tools/run_nclt_frontend_diagnostics.py": "61a69ce745334cdfe8cdb57959256ee89bc0275dd21969deedb01423dbfff84d",
+    "tools/finish_nclt_online_diagnostics.py": "9b02d3a8553df1ae7ba9bf616d737dc9e77fcbd24e2f776944ad936fc91466bc",
+    "tools/extract_pbstream_diagnostics.py": "1bf7e0c400b738ff3c2979acb69cfcde1af82026e035538f3857b5bde3c90bb1",
+    "tools/analyze_nclt_frontend_yaw.py": "b7b8e1f9f1d65cd20dc104b4ceae702c4ab9c0a3bd96449baaff1e8c8bb816d9",
+    "tools/audit_nclt_inputs.py": "989059566f8543355519fbdc9f5c7e9bc9a4e4d9030327a5bde0294860f1cd1f",
+    "tools/report_causal_stream.py": "95a506aac623e3edf5ca1d57bf7f7c51e0f167c94438b1ae93cefa0c0866ca29",
+    "tools/report_cross_scene_causal.py": "3228160208fe3c381d84c8feea2c0882d95215a83c0604d5d8592d53c45a3c95",
+    "tools/report_trajectory_quality.py": "fba6c6a309384e2843b3f1ffea8c59408ebf0f52b5b65720f8d530aaf7438de6",
+    "tools/report_scene_rotation.py": "0e7a6becd9fb14d8f8b9359bb96077b1198e40281defae1ab4b82eb3d0ebb4eb",
+    "tools/report_increment_memory.py": "11fa9f154f6e86680264784042b681c26dd1286d8ffeb5a2ea37802ec07c5d96",
+    "tools/report_nclt_diagnostics.py": "2442e5b5a0979e387241b34440d6777a35f07c84c899f970b8a177de036723e9",
+    "tools/report_nclt_frontend_diagnostics.py": "01bbe8060df438e3cc13f475b7eade63433a988184d771df859b3e12b3daa940",
+    "tools/report_nclt_online_frontend.py": "ae80b3cca1df1f4773357ca1c967cc7e172672f999e3774c903aa5d594b780e5",
+    "tools/write_nclt_diagnostic_report.py": "3ecd52fa05650f1acba05acb1575827f9670a42141d69b13b537ca56c13350c8",
+    "tools/summarize_mentor_benchmark.py": "e69ecf6765d386333450c40bf8b5b2bcb22ead5e59986a9236877e9d84794063",
+    "tools/report_paper_revision.py": "60652ab784f651eff86e9928fe8fc37494ef018b78a01c8e03f915756814bcf9",
+    "tools/verify_extract.py": "dfc1282740dba88e4c8b434709711af506614525377b558f7bc9d2acf4e3c01d"
+  },
+  "release_portability_changes": [
+    "read_tum transparently supports .tum.gz; numeric parsing is unchanged.",
+    "CARTOGRAPHER_INSTALL replaces the original machine-specific binary path.",
+    "CARTOGRAPHER_SOURCE replaces the original machine-specific protobuf path.",
+    "Frozen Q44 replay accepts compressed references and explicit same-strength alpha controls."
+  ],
+  "captured_inputs": {
+    "artifacts/recorded_inputs/home1-1/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/home1-1/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "72d4f8c836c0822b0067d58ab47abbbba140b9f87530b1a9f3999499ff72b036"
+    },
+    "artifacts/recorded_inputs/home1-1/groundtruth.tum.gz": {
+      "source": "data/prepared/home1-1/groundtruth.tum",
+      "uncompressed_sha256": "ec9057c34274b23a71c051259e119dba4ad5a2cd4c5dcff652d9c74c45f4be3c"
+    },
+    "artifacts/recorded_inputs/home1-2/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/home1-2/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "7326fb2d2377568d15f6f9dd67bd978f975f47b4b383451a181ca2b06a1cee64"
+    },
+    "artifacts/recorded_inputs/home1-2/groundtruth.tum.gz": {
+      "source": "data/prepared/home1-2/groundtruth.tum",
+      "uncompressed_sha256": "af41812daae3e774d53e0186f38f25a2686b5e36b91d10a0aeb59efc0a2430c3"
+    },
+    "artifacts/recorded_inputs/home1-3/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/home1-3/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "78d3631586fb19f649ba67015b539ac76522f3ec1a48d79f1f96752e48cad61b"
+    },
+    "artifacts/recorded_inputs/home1-3/groundtruth.tum.gz": {
+      "source": "data/prepared/home1-3/groundtruth.tum",
+      "uncompressed_sha256": "af59667d2c14c76064bf765970432de13811cfd2ac5d88b2021fc55fcc5a01e0"
+    },
+    "artifacts/recorded_inputs/home1-4/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/home1-4/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "48d5790a06e2e16d98fd4f95ade21021d0a427a24cfa6a971dce4ab5ef501ffe"
+    },
+    "artifacts/recorded_inputs/home1-4/groundtruth.tum.gz": {
+      "source": "data/prepared/home1-4/groundtruth.tum",
+      "uncompressed_sha256": "516093b60bde2f646f1c2a047abef62695d4eace93b47f17db4514e009dc7681"
+    },
+    "artifacts/recorded_inputs/home1-5/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/home1-5/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "b91fb82d7888a77f0922bb65ab6b9377b745ef02f7baddaa4c0b3d3e6fe24574"
+    },
+    "artifacts/recorded_inputs/home1-5/groundtruth.tum.gz": {
+      "source": "data/prepared/home1-5/groundtruth.tum",
+      "uncompressed_sha256": "bf877301d733626a93cf1633cc1511373f3185824b862247518b3a88820d2542"
+    },
+    "artifacts/recorded_inputs/office1-1/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-1/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "d9a4fbe1fc842a9682b33743c16a3130b31ddafbf0a915155280b3935aa33237"
+    },
+    "artifacts/recorded_inputs/office1-1/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-1/groundtruth.tum",
+      "uncompressed_sha256": "60208cd2b9ff935caffa7738231bcd1aa39777fd233fc581f53463cfbe374e00"
+    },
+    "artifacts/recorded_inputs/office1-2/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-2/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "f5f15ca08e68d4745ae725cf00bf7a674628ed345c3617b37486a7571a4f9936"
+    },
+    "artifacts/recorded_inputs/office1-2/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-2/groundtruth.tum",
+      "uncompressed_sha256": "c795ec8516685ce5819a91fafd39133a440b041201bc86ccb3845d21f55bb99e"
+    },
+    "artifacts/recorded_inputs/office1-3/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-3/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "b128eb22b680cc8a07ac95749921e58b14fea8c7bea206521340a8309c0dc5ab"
+    },
+    "artifacts/recorded_inputs/office1-3/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-3/groundtruth.tum",
+      "uncompressed_sha256": "6fe20edda6c8db3b2e87f6001235581ee3b78a777710efac020637d00eb67969"
+    },
+    "artifacts/recorded_inputs/office1-4/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-4/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "872010a23304f60d96ae1abad7d339a77fcc574a7ea22823602be1ce31b46a78"
+    },
+    "artifacts/recorded_inputs/office1-4/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-4/groundtruth.tum",
+      "uncompressed_sha256": "131ea8e2e337c690c58d6c8b90b0141bdab2bd52d01ec21d7403a1d9d7e06785"
+    },
+    "artifacts/recorded_inputs/office1-5/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-5/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "5d03f7f828974c5ee88ad955764aabe8a67f108e45f3d6b28016a76ccea6f3b4"
+    },
+    "artifacts/recorded_inputs/office1-5/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-5/groundtruth.tum",
+      "uncompressed_sha256": "27ba13f8f2bfa32344de0b6c1b2c249392574f8f1e1d9641ee80258f65fac7e1"
+    },
+    "artifacts/recorded_inputs/office1-6/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-6/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "40728df5907f62ea995e870127d14b69b245397c3b32fcaa128db1a396b3346f"
+    },
+    "artifacts/recorded_inputs/office1-6/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-6/groundtruth.tum",
+      "uncompressed_sha256": "790d77ce8a113b5a98f1391eb0f49f16652d32595d186dea2af6d53de06ebf85"
+    },
+    "artifacts/recorded_inputs/office1-7/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/office1-7/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "1989b71aaac7aaf5647bdfe8d4d14bade6f17386f34d00015f05406fdeb15265"
+    },
+    "artifacts/recorded_inputs/office1-7/groundtruth.tum.gz": {
+      "source": "data/prepared/office1-7/groundtruth.tum",
+      "uncompressed_sha256": "ff8d302dc6d7b6834490dcc39fe79a32b688df4cb24fd36ecd1689c251d937e0"
+    },
+    "artifacts/recorded_inputs/cafe1-1/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/cafe1-1/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "167737d3b747630d96ec9fd409b60cc1646b01205d3cf4d1bc3e56799b859f6e"
+    },
+    "artifacts/recorded_inputs/cafe1-1/groundtruth.tum.gz": {
+      "source": "data/prepared/cafe1-1/groundtruth.tum",
+      "uncompressed_sha256": "3e3b4104fadf983f72a29a00b97eb00d9e23fffb2b5725fe0108d2fc195204c9"
+    },
+    "artifacts/recorded_inputs/cafe1-2/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/cafe1-2/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "380b7d8500fc0f23cf2d046e37c579f4e9c575adb8031ce33beeabf0d40d2472"
+    },
+    "artifacts/recorded_inputs/cafe1-2/groundtruth.tum.gz": {
+      "source": "data/prepared/cafe1-2/groundtruth.tum",
+      "uncompressed_sha256": "d7a3bfcf9c1bdaf835d4ffe922599af5842aded6b50d050696a307823db892bb"
+    },
+    "artifacts/recorded_inputs/corridor1-3/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/corridor1-3/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "f3a6d49c6e64063b224e12ec51ebb962c76b726f264a64ec013771966c9491e9"
+    },
+    "artifacts/recorded_inputs/corridor1-3/groundtruth.tum.gz": {
+      "source": "data/prepared/corridor1-3/groundtruth.tum",
+      "uncompressed_sha256": "95b553f2f688b9cadd036bb8268583cab66e86317a638dfbaa9f5ab286957884"
+    },
+    "artifacts/recorded_inputs/corridor1-4/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/corridor1-4/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "97f472010c0fd0d40b4c7ba8f8a196022a1cad07c434cb449e170163fc12a11e"
+    },
+    "artifacts/recorded_inputs/corridor1-4/groundtruth.tum.gz": {
+      "source": "data/prepared/corridor1-4/groundtruth.tum",
+      "uncompressed_sha256": "4c0bdd45f29288c5908654aa6e2fa6f09815808aef45957cbde5670efa48739b"
+    },
+    "artifacts/recorded_inputs/corridor1-5/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/corridor1-5/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "ebe55165c7b0ed10eb1228be8fb34da6205a672db34bd4eba952590afc8e929a"
+    },
+    "artifacts/recorded_inputs/corridor1-5/groundtruth.tum.gz": {
+      "source": "data/prepared/corridor1-5/groundtruth.tum",
+      "uncompressed_sha256": "c5095494c5dc0f257fc6c2d48e2103fe38332f22d2b1faa309e2e40731861860"
+    },
+    "artifacts/recorded_inputs/nclt-2013-01-10/cartographer_noimu_sampled_stream_frontend_v2.npz": {
+      "source": "results/mentor_benchmark/nclt_frontend_diagnostic_v2/nclt-2013-01-10_ceres10_loop/cartographer_noimu_sampled_stream_frontend_v2.npz",
+      "sha256": "ef07a0ce9613e2c8a399492f34ba5d724663cd964d43aef6a977a2678f84dd5c"
+    },
+    "artifacts/recorded_inputs/nclt-2013-01-10/groundtruth.tum.gz": {
+      "source": "data/prepared/nclt-2013-01-10/groundtruth.tum",
+      "uncompressed_sha256": "7ef8b25011cfdf949c9c549237b9dbf97710456c8e7910aae3b8452ad836c2d4"
+    },
+    "artifacts/recorded_inputs/nclt-2013-01-10/cartographer_noimu_sampled_stream_unified_inputs.npz": {
+      "source": "data/prepared/nclt-2013-01-10/cartographer_noimu_sampled_stream_unified_inputs.npz",
+      "sha256": "5968d91912539577d3c778abd2ed41e54ecccf0db9cfd87cddf6deeb379591eb"
+    }
+  },
+  "scope": "Experimental code and recorded numeric fixtures; excludes raw datasets, manuscript edits and local credentials."
+}

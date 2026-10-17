@@ -1,0 +1,729 @@
+{
+  "sequence": "home1-3_raw_fault_v2",
+  "checks": {
+    "feature_error_max": 0.0,
+    "torch_replay_pose_error_max": 0.0,
+    "publication_error_max": 1.562419527090242e-09,
+    "exact_raw_fallback": true,
+    "same_alpha_and_tau_for_all_gates": true,
+    "reference_access_after_inference": true,
+    "outside_fault_fallback_fraction": {
+      "none": 0.004884004884004884,
+      "rule": 0.019536019536019536,
+      "uncertainty": 0.08302808302808302
+    }
+  },
+  "results": [
+    {
+      "sequence": "home1-3_raw_fault_v2",
+      "method": "none",
+      "alpha": 0.45,
+      "tau_s": null,
+      "ape_m": 0.2182551753903904,
+      "all_reference_ape_m": 0.21760470950609706,
+      "rpe_1s_m": 0.02550877777686514,
+      "rpe_1s_deg": 0.7516165773620732,
+      "rpe_5s_m": 0.06987474580061363,
+      "harmful_fraction_over_5cm": 0.32479627473806755,
+      "fallback_fraction": 0.026166097838452786,
+      "input_available_fraction": 0.9772468714448237,
+      "reference_valid_fraction": 0.9772468714448237,
+      "all_reference_fraction": 1.0,
+      "grid_frames": 879,
+      "output_fraction": 1.0
+    },
+    {
+      "sequence": "home1-3_raw_fault_v2",
+      "method": "rule",
+      "alpha": 0.45,
+      "tau_s": null,
+      "ape_m": 0.16804636980393856,
+      "all_reference_ape_m": 0.16851523422474113,
+      "rpe_1s_m": 0.038598814857197836,
+      "rpe_1s_deg": 0.7626829947299727,
+      "rpe_5s_m": 0.09447398310370184,
+      "harmful_fraction_over_5cm": 0.023282887077997673,
+      "fallback_fraction": 0.06370875995449374,
+      "input_available_fraction": 0.9772468714448237,
+      "reference_valid_fraction": 0.9772468714448237,
+      "all_reference_fraction": 1.0,
+      "grid_frames": 879,
+      "output_fraction": 1.0
+    },
+    {
+      "sequence": "home1-3_raw_fault_v2",
+      "method": "uncertainty",
+      "alpha": 0.45,
+      "tau_s": null,
+      "ape_m": 0.1672461898736997,
+      "all_reference_ape_m": 0.16773548916451075,
+      "rpe_1s_m": 0.040728982204722076,
+      "rpe_1s_deg": 0.7072550297731871,
+      "rpe_5s_m": 0.09594359282379822,
+      "harmful_fraction_over_5cm": 0.0,
+      "fallback_fraction": 0.12627986348122866,
+      "input_available_fraction": 0.9772468714448237,
+      "reference_valid_fraction": 0.9772468714448237,
+      "all_reference_fraction": 1.0,
+      "grid_frames": 879,
+      "output_fraction": 1.0
+    },
+    {
+      "sequence": "home1-3_raw_fault_v2",
+      "method": "cartographer",
+      "alpha": null,
+      "tau_s": null,
+      "ape_m": 0.17315611136565656,
+      "all_reference_ape_m": 0.17349689211902614,
+      "rpe_1s_m": 0.03623541590151696,
+      "rpe_1s_deg": 0.6901425391674854,
+      "rpe_5s_m": 0.11416870179587624,
+      "harmful_fraction_over_5cm": null,
+      "fallback_fraction": null,
+      "input_available_fraction": 0.9772468714448237,
+      "reference_valid_fraction": 0.9772468714448237,
+      "all_reference_fraction": 1.0,
+      "grid_frames": 879,
+      "output_fraction": 1.0
+    },
+    {
+      "sequence": "home1-3_raw_fault_v2",
+      "method": "provided_odometry",
+      "alpha": null,
+      "tau_s": null,
+      "ape_m": 0.3167886824392813,
+      "all_reference_ape_m": 0.313680707993452,
+      "rpe_1s_m": 0.02957254942537973,
+      "rpe_1s_deg": 0.773855048634409,
+      "rpe_5s_m": 0.08899536765011656,
+      "harmful_fraction_over_5cm": null,
+      "fallback_fraction": null,
+      "input_available_fraction": 0.9772468714448237,
+      "reference_valid_fraction": 0.9772468714448237,
+      "all_reference_fraction": 1.0,
+      "grid_frames": 879,
+      "output_fraction": 1.0
+    }
+  ],
+  "metrics": {
+    "none": {
+      "ape_m": {
+        "count": 859,
+        "rmse": 0.2182551753903904,
+        "mean": 0.19700610127267285,
+        "median": 0.21446612635799087,
+        "p95": 0.3171258761836693,
+        "max": 0.39262437477268947
+      },
+      "yaw_ape_deg": {
+        "count": 859,
+        "rmse": 3.2138365915621403,
+        "mean": 2.4459303218922335,
+        "median": 1.32300803102367,
+        "p95": 5.641643500118223,
+        "max": 8.693676919733083
+      },
+      "coverage": {
+        "input_available_fraction": 0.9772468714448237,
+        "reference_valid_fraction": 0.9772468714448237,
+        "grid_hz": 10.0,
+        "input_grid_uses_gt": false,
+        "alignment": "common-time origin SE2",
+        "cart_interpolation": false,
+        "stream_protocol": "causal_grid_v1",
+        "ready_fraction": 0.9738339021615472,
+        "availability_source": "captured ROS arrivals",
+        "output_fraction": 1.0
+      },
+      "rpe": {
+        "1s": {
+          "translation_m": {
+            "count": 838,
+            "rmse": 0.02550877777686514,
+            "mean": 0.020300718771474643,
+            "median": 0.0168875030219513,
+            "p95": 0.04860834593485955,
+            "max": 0.09667603014619322
+          },
+          "rotation_deg": {
+            "count": 838,
+            "rmse": 0.7516165773620732,
+            "mean": 0.4490397219231235,
+            "median": 0.2614696040507325,
+            "p95": 1.4213159868139233,
+            "max": 4.7215310738451866
+          }
+        },
+        "5s": {
+          "translation_m": {
+            "count": 758,
+            "rmse": 0.06987474580061363,
+            "mean": 0.05961044448434971,
+            "median": 0.05248365721656828,
+            "p95": 0.13639306050479,
+            "max": 0.17753573598833824
+          },
+          "rotation_deg": {
+            "count": 758,
+            "rmse": 1.3230254764985403,
+            "mean": 0.9144152180231346,
+            "median": 0.6561573958141065,
+            "p95": 3.083910007371731,
+            "max": 7.025532431199922
+          }
+        },
+        "1m": {
+          "translation_m": {
+            "count": 739,
+            "rmse": 0.06207103522593832,
+            "mean": 0.05066095363146342,
+            "median": 0.04427389631395656,
+            "p95": 0.11735891058886902,
+            "max": 0.1841583253391845
+          },
+          "rotation_deg": {
+            "count": 739,
+            "rmse": 1.5413047094744228,
+            "mean": 0.9835906087890564,
+            "median": 0.5386691852024484,
+            "p95": 3.919431440519139,
+            "max": 7.001689588194337
+          }
+        },
+        "5m": {
+          "translation_m": {
+            "count": 535,
+            "rmse": 0.14076853312538132,
+            "mean": 0.11733037541262702,
+            "median": 0.0955605472529857,
+            "p95": 0.28963682522689205,
+            "max": 0.3303068373092416
+          },
+          "rotation_deg": {
+            "count": 535,
+            "rmse": 3.046047585622497,
+            "mean": 2.5605370600379493,
+            "median": 2.129394773277843,
+            "p95": 4.987550626922779,
+            "max": 6.7876592096618245
+          }
+        }
+      }
+    },
+    "rule": {
+      "ape_m": {
+        "count": 859,
+        "rmse": 0.16804636980393856,
+        "mean": 0.1448602852435435,
+        "median": 0.1515860366625703,
+        "p95": 0.2622674554623208,
+        "max": 0.29544887910334294
+      },
+      "yaw_ape_deg": {
+        "count": 859,
+        "rmse": 1.7364391946102185,
+        "mean": 1.4328126183549037,
+        "median": 1.311997572779226,
+        "p95": 3.1131564278334865,
+        "max": 8.693676919733083
+      },
+      "coverage": {
+        "input_available_fraction": 0.9772468714448237,
+        "reference_valid_fraction": 0.9772468714448237,
+        "grid_hz": 10.0,
+        "input_grid_uses_gt": false,
+        "alignment": "common-time origin SE2",
+        "cart_interpolation": false,
+        "stream_protocol": "causal_grid_v1",
+        "ready_fraction": 0.9738339021615472,
+        "availability_source": "captured ROS arrivals",
+        "output_fraction": 1.0
+      },
+      "rpe": {
+        "1s": {
+          "translation_m": {
+            "count": 838,
+            "rmse": 0.038598814857197836,
+            "mean": 0.02118432323954706,
+            "median": 0.01281181164069058,
+            "p95": 0.061807605208682004,
+            "max": 0.23002798963348292
+          },
+          "rotation_deg": {
+            "count": 838,
+            "rmse": 0.7626829947299727,
+            "mean": 0.4921273629372449,
+            "median": 0.2991623258234143,
+            "p95": 1.633557456589138,
+            "max": 3.938427929396421
+          }
+        },
+        "5s": {
+          "translation_m": {
+            "count": 758,
+            "rmse": 0.09447398310370184,
+            "mean": 0.07007752655025386,
+            "median": 0.045893187062189256,
+            "p95": 0.23313321979715398,
+            "max": 0.2658716575455386
+          },
+          "rotation_deg": {
+            "count": 758,
+            "rmse": 1.2529807907710189,
+            "mean": 0.9884734361292092,
+            "median": 0.8019807628630053,
+            "p95": 2.6393712674362164,
+            "max": 3.978454004927774
+          }
+        },
+        "1m": {
+          "translation_m": {
+            "count": 739,
+            "rmse": 0.08923212224495336,
+            "mean": 0.06436713491232485,
+            "median": 0.03876686741030934,
+            "p95": 0.18603311773793121,
+            "max": 0.280877721883462
+          },
+          "rotation_deg": {
+            "count": 739,
+            "rmse": 1.0677489064989643,
+            "mean": 0.7385198127080437,
+            "median": 0.48779659945064946,
+            "p95": 2.351333712167333,
+            "max": 5.25808623602346
+          }
+        },
+        "5m": {
+          "translation_m": {
+            "count": 535,
+            "rmse": 0.15895048642694182,
+            "mean": 0.14539798928235415,
+            "median": 0.15092934003089822,
+            "p95": 0.23515484489092098,
+            "max": 0.314696048586989
+          },
+          "rotation_deg": {
+            "count": 535,
+            "rmse": 1.9196200717000338,
+            "mean": 1.6597385472578052,
+            "median": 1.5882288279086823,
+            "p95": 3.3408639528079953,
+            "max": 5.084257023780425
+          }
+        }
+      }
+    },
+    "uncertainty": {
+      "ape_m": {
+        "count": 859,
+        "rmse": 0.1672461898736997,
+        "mean": 0.14793086632742122,
+        "median": 0.17204969360533864,
+        "p95": 0.2470958105493107,
+        "max": 0.26905858443510444
+      },
+      "yaw_ape_deg": {
+        "count": 859,
+        "rmse": 1.2299683459945787,
+        "mean": 0.9913388456760798,
+        "median": 0.891974594004529,
+        "p95": 1.9560187151120114,
+        "max": 8.693676919733083
+      },
+      "coverage": {
+        "input_available_fraction": 0.9772468714448237,
+        "reference_valid_fraction": 0.9772468714448237,
+        "grid_hz": 10.0,
+        "input_grid_uses_gt": false,
+        "alignment": "common-time origin SE2",
+        "cart_interpolation": false,
+        "stream_protocol": "causal_grid_v1",
+        "ready_fraction": 0.9738339021615472,
+        "availability_source": "captured ROS arrivals",
+        "output_fraction": 1.0
+      },
+      "rpe": {
+        "1s": {
+          "translation_m": {
+            "count": 838,
+            "rmse": 0.040728982204722076,
+            "mean": 0.02648646108940225,
+            "median": 0.014689933656468982,
+            "p95": 0.08083297292152526,
+            "max": 0.21798656310683087
+          },
+          "rotation_deg": {
+            "count": 838,
+            "rmse": 0.7072550297731871,
+            "mean": 0.45160584778503166,
+            "median": 0.297979180051015,
+            "p95": 1.3649639418076291,
+            "max": 4.30850498026886
+          }
+        },
+        "5s": {
+          "translation_m": {
+            "count": 758,
+            "rmse": 0.09594359282379822,
+            "mean": 0.08266765051892352,
+            "median": 0.07411036827225448,
+            "p95": 0.18035399688169587,
+            "max": 0.20419998226451364
+          },
+          "rotation_deg": {
+            "count": 758,
+            "rmse": 0.8611467479349215,
+            "mean": 0.6247243996500761,
+            "median": 0.47846311202882974,
+            "p95": 1.633210325756854,
+            "max": 4.858267593477301
+          }
+        },
+        "1m": {
+          "translation_m": {
+            "count": 739,
+            "rmse": 0.09537257033038796,
+            "mean": 0.0778107816254795,
+            "median": 0.06794943735826336,
+            "p95": 0.17617066680619442,
+            "max": 0.20697735955260085
+          },
+          "rotation_deg": {
+            "count": 739,
+            "rmse": 0.8002414928715597,
+            "mean": 0.5533280469085561,
+            "median": 0.4007934343308287,
+            "p95": 1.4614243784202647,
+            "max": 4.858267593477301
+          }
+        },
+        "5m": {
+          "translation_m": {
+            "count": 535,
+            "rmse": 0.1397071841472571,
+            "mean": 0.12543056079174666,
+            "median": 0.12891154812022373,
+            "p95": 0.21632431750435385,
+            "max": 0.29812283236988324
+          },
+          "rotation_deg": {
+            "count": 535,
+            "rmse": 1.146855270263655,
+            "mean": 0.8592084142094276,
+            "median": 0.6310002336137733,
+            "p95": 2.2675645867793026,
+            "max": 4.627340582570479
+          }
+        }
+      }
+    },
+    "cartographer": {
+      "ape_m": {
+        "count": 859,
+        "rmse": 0.17315611136565656,
+        "mean": 0.15620959306299945,
+        "median": 0.18329310021934112,
+        "p95": 0.2453243702364074,
+        "max": 0.26905858443510444
+      },
+      "yaw_ape_deg": {
+        "count": 859,
+        "rmse": 1.15164239132566,
+        "mean": 0.9189489888451005,
+        "median": 0.8222074077421728,
+        "p95": 1.9803343842315453,
+        "max": 8.693676919733083
+      },
+      "coverage": {
+        "input_available_fraction": 0.9772468714448237,
+        "reference_valid_fraction": 0.9772468714448237,
+        "grid_hz": 10.0,
+        "input_grid_uses_gt": false,
+        "alignment": "common-time origin SE2",
+        "cart_interpolation": false,
+        "stream_protocol": "causal_grid_v1",
+        "ready_fraction": 0.9738339021615472,
+        "availability_source": "captured ROS arrivals",
+        "output_fraction": 1.0
+      },
+      "rpe": {
+        "1s": {
+          "translation_m": {
+            "count": 838,
+            "rmse": 0.03623541590151696,
+            "mean": 0.02806861747691816,
+            "median": 0.022840963316534135,
+            "p95": 0.06111113348435429,
+            "max": 0.1535494697068996
+          },
+          "rotation_deg": {
+            "count": 838,
+            "rmse": 0.6901425391674854,
+            "mean": 0.42232382343512315,
+            "median": 0.2513587580301445,
+            "p95": 1.3519338880616585,
+            "max": 4.363587356326491
+          }
+        },
+        "5s": {
+          "translation_m": {
+            "count": 758,
+            "rmse": 0.11416870179587624,
+            "mean": 0.09649526673265268,
+            "median": 0.07914559515842394,
+            "p95": 0.204740078565532,
+            "max": 0.28775717679210894
+          },
+          "rotation_deg": {
+            "count": 758,
+            "rmse": 0.8912539079767071,
+            "mean": 0.616197040692226,
+            "median": 0.4463599299977409,
+            "p95": 1.801780453135134,
+            "max": 4.858267593477301
+          }
+        },
+        "1m": {
+          "translation_m": {
+            "count": 739,
+            "rmse": 0.10638510624938503,
+            "mean": 0.08533611825799779,
+            "median": 0.07750079747932122,
+            "p95": 0.19517318772751335,
+            "max": 0.30835674910751115
+          },
+          "rotation_deg": {
+            "count": 739,
+            "rmse": 0.8500986027987574,
+            "mean": 0.5820264692551761,
+            "median": 0.4152411039959052,
+            "p95": 1.6890286899738598,
+            "max": 4.858267593477301
+          }
+        },
+        "5m": {
+          "translation_m": {
+            "count": 535,
+            "rmse": 0.15702643514374343,
+            "mean": 0.14511753482014,
+            "median": 0.1542138238102185,
+            "p95": 0.2169367739200164,
+            "max": 0.3000158583050519
+          },
+          "rotation_deg": {
+            "count": 535,
+            "rmse": 1.12969331391857,
+            "mean": 0.8007526211292366,
+            "median": 0.5172046347635576,
+            "p95": 2.424290797274947,
+            "max": 4.480911362441041
+          }
+        }
+      }
+    },
+    "provided_odometry": {
+      "ape_m": {
+        "count": 859,
+        "rmse": 0.3167886824392813,
+        "mean": 0.29164797869477205,
+        "median": 0.32563070486579293,
+        "p95": 0.45502249137307826,
+        "max": 0.4728698825493081
+      },
+      "yaw_ape_deg": {
+        "count": 859,
+        "rmse": 2.1331639556122224,
+        "mean": 1.7312422207281366,
+        "median": 1.3684837371415335,
+        "p95": 4.038218490338159,
+        "max": 7.321076835668232
+      },
+      "coverage": {
+        "input_available_fraction": 0.9772468714448237,
+        "reference_valid_fraction": 0.9772468714448237,
+        "grid_hz": 10.0,
+        "input_grid_uses_gt": false,
+        "alignment": "common-time origin SE2",
+        "cart_interpolation": false,
+        "stream_protocol": "causal_grid_v1",
+        "ready_fraction": 0.9738339021615472,
+        "availability_source": "captured ROS arrivals",
+        "output_fraction": 1.0
+      },
+      "rpe": {
+        "1s": {
+          "translation_m": {
+            "count": 838,
+            "rmse": 0.02957254942537973,
+            "mean": 0.02374160591582482,
+            "median": 0.021076393454584955,
+            "p95": 0.04748507238936566,
+            "max": 0.14189940095107034
+          },
+          "rotation_deg": {
+            "count": 838,
+            "rmse": 0.773855048634409,
+            "mean": 0.5233923497838417,
+            "median": 0.3558799578136795,
+            "p95": 1.7595209675890489,
+            "max": 4.415549869522698
+          }
+        },
+        "5s": {
+          "translation_m": {
+            "count": 758,
+            "rmse": 0.08899536765011656,
+            "mean": 0.08120373276824357,
+            "median": 0.08257715915701544,
+            "p95": 0.14867418215426018,
+            "max": 0.18374322504097057
+          },
+          "rotation_deg": {
+            "count": 758,
+            "rmse": 0.9036755984323278,
+            "mean": 0.674195366577258,
+            "median": 0.5104034028301858,
+            "p95": 1.9245628527006902,
+            "max": 3.637074612707153
+          }
+        },
+        "1m": {
+          "translation_m": {
+            "count": 739,
+            "rmse": 0.07696239138122254,
+            "mean": 0.06900999251364728,
+            "median": 0.06176883522969162,
+            "p95": 0.12773292879650885,
+            "max": 0.15624423915750993
+          },
+          "rotation_deg": {
+            "count": 739,
+            "rmse": 0.9907252195145886,
+            "mean": 0.7690454775455804,
+            "median": 0.6320072058699598,
+            "p95": 1.9472962555847344,
+            "max": 3.287097080352613
+          }
+        },
+        "5m": {
+          "translation_m": {
+            "count": 535,
+            "rmse": 0.13571263483310717,
+            "mean": 0.12566625291799632,
+            "median": 0.12371031282849286,
+            "p95": 0.22409207159189226,
+            "max": 0.3009610111925468
+          },
+          "rotation_deg": {
+            "count": 535,
+            "rmse": 1.569482836002189,
+            "mean": 1.22643707772401,
+            "median": 0.9608010720463604,
+            "p95": 3.260397351319895,
+            "max": 4.3827180683326565
+          }
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "event": "odometry_drop",
+      "gate": "none",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 0.95,
+      "first_fallback_offset_s": 0.1821732521057129,
+      "first_accept_after_event_s": 0.3821732997894287,
+      "input_available_fraction": 0.05,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "odometry_drop",
+      "gate": "rule",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 0.95,
+      "first_fallback_offset_s": 0.1821732521057129,
+      "first_accept_after_event_s": 0.3821732997894287,
+      "input_available_fraction": 0.05,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "odometry_drop",
+      "gate": "uncertainty",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 1.0,
+      "first_fallback_offset_s": 0.08217334747314453,
+      "first_accept_after_event_s": 0.3821732997894287,
+      "input_available_fraction": 0.05,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "odometry_clock_bias_monotonic",
+      "gate": "none",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 0.0,
+      "first_fallback_offset_s": null,
+      "first_accept_after_event_s": 0.08217334747314453,
+      "input_available_fraction": 1.0,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "odometry_clock_bias_monotonic",
+      "gate": "rule",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 0.05,
+      "first_fallback_offset_s": 1.9821734428405762,
+      "first_accept_after_event_s": 0.5821733474731445,
+      "input_available_fraction": 1.0,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "odometry_clock_bias_monotonic",
+      "gate": "uncertainty",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 0.15,
+      "first_fallback_offset_s": 1.0821733474731445,
+      "first_accept_after_event_s": 0.5821733474731445,
+      "input_available_fraction": 1.0,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "laser_no_returns",
+      "gate": "none",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 0.0,
+      "first_fallback_offset_s": null,
+      "first_accept_after_event_s": 0.08217334747314453,
+      "input_available_fraction": 1.0,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "laser_no_returns",
+      "gate": "rule",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 1.0,
+      "first_fallback_offset_s": 0.08217334747314453,
+      "first_accept_after_event_s": 0.08217334747314453,
+      "input_available_fraction": 1.0,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    },
+    {
+      "event": "laser_no_returns",
+      "gate": "uncertainty",
+      "grid_samples": 20,
+      "interval_fallback_fraction": 1.0,
+      "first_fallback_offset_s": 0.08217334747314453,
+      "first_accept_after_event_s": 0.08217334747314453,
+      "input_available_fraction": 1.0,
+      "measurement_scope": "Source-time grid offsets at 10Hz, not wall-clock fault detection or calibrated false positives."
+    }
+  ],
+  "graph_nodes": [],
+  "checkpoint": "results/mentor_benchmark/home_trajectory_quality_v1/quality44_trajectory_seed22/model.pt",
+  "checkpoint_sha256": "619c091bc1c9f6ce32b591f4fa117523496335ae661e19d2cceea3b8c22d66d8",
+  "capture_sha256": "ac1e8187a39c6411cb793de990e073633802b9843dcc9f1d568c18dad1731c4a",
+  "reference_in_inference": false,
+  "retuned_after_evaluation": false,
+  "correction_scope": "Output-only, no feedback to SLAM; gate none retains mandatory input/history guards."
+}

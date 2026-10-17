@@ -1,0 +1,15 @@
+{
+  "stream_protocol": "causal_grid_v1",
+  "config": "full20",
+  "target": "pose",
+  "alpha": 0.65,
+  "gate_parameters": {
+    "sigma_threshold": 0.8439812660217285,
+    "ood_threshold": 8.571044921875,
+    "variance_calibration_scale": 1.1126539818993182,
+    "gate_alpha": 0.65,
+    "gate_validation_ape_m": 0.08978741354543228,
+    "fit_split": "validation"
+  },
+  "integration_tau_s": null
+}

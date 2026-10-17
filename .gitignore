@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+/third_party/cartographer_ws/
+/third_party/2dliw_workspace/
+/data/
+/results/
+*.bag
+*.pbstream
+*.log
+*.docx
+*.pdf
+Thumbs.db
+.DS_Store

@@ -1,0 +1,43 @@
+{
+  "frozen_at_utc": "2026-10-05T15:31:58.199801+00:00",
+  "sessions": [
+    "2012-04-29",
+    "2013-04-05"
+  ],
+  "selection_reason": "Previously unprocessed complete sessions available in the same documented 2D sensor format; no reference scores inspected.",
+  "checkpoint": "results/mentor_benchmark/scene_rotation_gated_v1/test_corridor_val_cafe/quality44_continuous_seed33/model.pt",
+  "checkpoint_sha256": "9d34627f2f4436262eeead5b987d017020d77208a65589050b3443a1d420987e",
+  "configuration": "config/nclt_diag_ceres10_loop.lua",
+  "configuration_sha256": "2d84cde685d2e0879b40b77f9a95156c43b8dc4edcaa2843365c4fda844ffca2",
+  "selection_file": "results/mentor_benchmark/scene_rotation_gated_v1/test_corridor_val_cafe/deployment_selection.json",
+  "selection_file_sha256": "881d3c865eea7f3623bb7323ff063b8152511c76f70706df265c65c946a712ec",
+  "checkpoint_selection": "Already selected using Cafe validation with Home and Office training; no new-session adaptation.",
+  "alpha": 1.0,
+  "integration_tau_s": null,
+  "gates": [
+    "none",
+    "rule",
+    "uncertainty"
+  ],
+  "replay_rate": 5.0,
+  "replay_label": "frozen_holdout_v1",
+  "grid_hz": 10.0,
+  "inference_input": "Actual received Cartographer, provided fused odometry and scan geometry; never reference poses.",
+  "scores": [
+    "initial-pose-aligned planar APE RMSE",
+    "1s/5s translational and yaw RPE",
+    "reference-valid and input-available coverage",
+    "harmful correction over 5cm",
+    "fallback fraction",
+    "graph-node-time APE if covariance timestamps available"
+  ],
+  "missing_policy": "Preserve all grid outputs; evaluate every method on common reference-valid times; no RPE across gaps.",
+  "resource_scope": "Accelerated replay is an accuracy/robustness test, not a real-time deployment claim.",
+  "inference_before_reference_scoring": true,
+  "retuning_after_scores": false,
+  "limits": [
+    "Same NCLT robot, source and campus; additional sessions do not isolate hardware effects.",
+    "Reference is a SLAM graph; high-rate interpolation uses odometry and is not independent ground truth.",
+    "No self-collected sequences or real edge-device measurements are available."
+  ]
+}

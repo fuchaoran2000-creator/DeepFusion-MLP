@@ -1,0 +1,375 @@
+{
+  "selected": {
+    "pooled_absolute_pooled_gate": {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 0.30000000000000004,
+      "tau_s": 5.0,
+      "validation_score": 0.47480311576929707
+    },
+    "pooled_absolute_training_gate": {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 1.0,
+      "tau_s": null,
+      "validation_score": 0.4784563488706065
+    },
+    "pooled_relative_pooled_gate": {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 0.30000000000000004,
+      "tau_s": 5.0,
+      "validation_score": 0.9563286911313016
+    },
+    "pooled_relative_training_gate": {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 1.0,
+      "tau_s": null,
+      "validation_score": 0.9489321435570472
+    }
+  },
+  "candidates": [
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_frame_seed11",
+      "loss": "frame",
+      "seed": 11,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_frame_seed11",
+      "loss": "frame",
+      "seed": 11,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_frame_seed11",
+      "loss": "frame",
+      "seed": 11,
+      "alpha": 0.35000000000000003,
+      "tau_s": 5.0,
+      "validation_score": 0.9991215361091296
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_frame_seed11",
+      "loss": "frame",
+      "seed": 11,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_continuous_seed11",
+      "loss": "continuous",
+      "seed": 11,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_continuous_seed11",
+      "loss": "continuous",
+      "seed": 11,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_continuous_seed11",
+      "loss": "continuous",
+      "seed": 11,
+      "alpha": 0.05,
+      "tau_s": 5.0,
+      "validation_score": 0.9999928363009052
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_continuous_seed11",
+      "loss": "continuous",
+      "seed": 11,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_gated_reset_seed11",
+      "loss": "gated_reset",
+      "seed": 11,
+      "alpha": 0.15000000000000002,
+      "tau_s": 5.0,
+      "validation_score": 0.49516289973058447
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_gated_reset_seed11",
+      "loss": "gated_reset",
+      "seed": 11,
+      "alpha": 0.1,
+      "tau_s": 5.0,
+      "validation_score": 0.49449974195218604
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_gated_reset_seed11",
+      "loss": "gated_reset",
+      "seed": 11,
+      "alpha": 0.8,
+      "tau_s": 5.0,
+      "validation_score": 0.9947177254988282
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_gated_reset_seed11",
+      "loss": "gated_reset",
+      "seed": 11,
+      "alpha": 0.2,
+      "tau_s": 5.0,
+      "validation_score": 0.9972876590025332
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_frame_seed22",
+      "loss": "frame",
+      "seed": 22,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_frame_seed22",
+      "loss": "frame",
+      "seed": 22,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_frame_seed22",
+      "loss": "frame",
+      "seed": 22,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_frame_seed22",
+      "loss": "frame",
+      "seed": 22,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_continuous_seed22",
+      "loss": "continuous",
+      "seed": 22,
+      "alpha": 1.0,
+      "tau_s": 30.0,
+      "validation_score": 0.4913937006877088
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_continuous_seed22",
+      "loss": "continuous",
+      "seed": 22,
+      "alpha": 0.15000000000000002,
+      "tau_s": 5.0,
+      "validation_score": 0.4881821937051698
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_continuous_seed22",
+      "loss": "continuous",
+      "seed": 22,
+      "alpha": 1.0,
+      "tau_s": 30.0,
+      "validation_score": 0.9874667205003973
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_continuous_seed22",
+      "loss": "continuous",
+      "seed": 22,
+      "alpha": 0.15000000000000002,
+      "tau_s": 5.0,
+      "validation_score": 0.9869070575918968
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_gated_reset_seed22",
+      "loss": "gated_reset",
+      "seed": 22,
+      "alpha": 0.2,
+      "tau_s": null,
+      "validation_score": 0.4949739310892153
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_gated_reset_seed22",
+      "loss": "gated_reset",
+      "seed": 22,
+      "alpha": 0.05,
+      "tau_s": null,
+      "validation_score": 0.48966305331838156
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_gated_reset_seed22",
+      "loss": "gated_reset",
+      "seed": 22,
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_gated_reset_seed22",
+      "loss": "gated_reset",
+      "seed": 22,
+      "alpha": 0.05,
+      "tau_s": 30.0,
+      "validation_score": 0.9938771257668231
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_frame_seed33",
+      "loss": "frame",
+      "seed": 33,
+      "alpha": 1.0,
+      "tau_s": 5.0,
+      "validation_score": 0.48605421928331316
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_frame_seed33",
+      "loss": "frame",
+      "seed": 33,
+      "alpha": 0.45,
+      "tau_s": 5.0,
+      "validation_score": 0.4838283750407804
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_frame_seed33",
+      "loss": "frame",
+      "seed": 33,
+      "alpha": 1.0,
+      "tau_s": 5.0,
+      "validation_score": 0.9811735046561461
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_frame_seed33",
+      "loss": "frame",
+      "seed": 33,
+      "alpha": 0.35000000000000003,
+      "tau_s": 5.0,
+      "validation_score": 0.9861512565687625
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 1.0,
+      "tau_s": null,
+      "validation_score": 0.4784563488706065
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 0.30000000000000004,
+      "tau_s": 5.0,
+      "validation_score": 0.47480311576929707
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 1.0,
+      "tau_s": null,
+      "validation_score": 0.9489321435570472
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_continuous_seed33",
+      "loss": "continuous",
+      "seed": 33,
+      "alpha": 0.30000000000000004,
+      "tau_s": 5.0,
+      "validation_score": 0.9563286911313016
+    },
+    {
+      "protocol": "pooled_absolute_training_gate",
+      "model": "quality44_gated_reset_seed33",
+      "loss": "gated_reset",
+      "seed": 33,
+      "alpha": 0.2,
+      "tau_s": null,
+      "validation_score": 0.4950555490058135
+    },
+    {
+      "protocol": "pooled_absolute_pooled_gate",
+      "model": "quality44_gated_reset_seed33",
+      "loss": "gated_reset",
+      "seed": 33,
+      "alpha": 0.4,
+      "tau_s": 5.0,
+      "validation_score": 0.4930399792428621
+    },
+    {
+      "protocol": "pooled_relative_training_gate",
+      "model": "quality44_gated_reset_seed33",
+      "loss": "gated_reset",
+      "seed": 33,
+      "alpha": 0.25,
+      "tau_s": null,
+      "validation_score": 0.9991041122474282
+    },
+    {
+      "protocol": "pooled_relative_pooled_gate",
+      "model": "quality44_gated_reset_seed33",
+      "loss": "gated_reset",
+      "seed": 33,
+      "alpha": 0.6000000000000001,
+      "tau_s": 5.0,
+      "validation_score": 0.9886382052238427
+    }
+  ],
+  "weight_scope": "same nine checkpoints, trained Home/Office with Cafe-only early stopping; no retraining",
+  "validation_scenes": [
+    "cafe",
+    "corridor"
+  ],
+  "external_test": [
+    "nclt-2013-01-10"
+  ],
+  "nclt_used_for_selection": false
+}

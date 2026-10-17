@@ -1,0 +1,252 @@
+{
+  "protocol": "scene-group isolation plus held-out second public dataset; joint domain shift; IMU-enabled Cartographer condition (planned separate sensor budget)",
+  "isolation_field": "scene_id",
+  "train": [
+    "home1-1",
+    "home1-2",
+    "home1-3",
+    "home1-4",
+    "home1-5",
+    "office1-1",
+    "office1-2",
+    "office1-3",
+    "office1-4",
+    "office1-5",
+    "office1-6",
+    "office1-7"
+  ],
+  "validation": [
+    "cafe1-1",
+    "cafe1-2"
+  ],
+  "test": [
+    "corridor1-3",
+    "corridor1-4",
+    "corridor1-5",
+    "nclt-2013-01-10"
+  ],
+  "sequences": [
+    {
+      "sequence_id": "home1-1",
+      "scene_id": "home",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/home1-1/cartographer_imu_final.tum",
+      "odom": "data/prepared/home1-1/odom.tum",
+      "gt": "data/prepared/home1-1/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "home1-2",
+      "scene_id": "home",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/home1-2/cartographer_imu_final.tum",
+      "odom": "data/prepared/home1-2/odom.tum",
+      "gt": "data/prepared/home1-2/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "home1-3",
+      "scene_id": "home",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/home1-3/cartographer_imu_final.tum",
+      "odom": "data/prepared/home1-3/odom.tum",
+      "gt": "data/prepared/home1-3/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "home1-4",
+      "scene_id": "home",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/home1-4/cartographer_imu_final.tum",
+      "odom": "data/prepared/home1-4/odom.tum",
+      "gt": "data/prepared/home1-4/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "home1-5",
+      "scene_id": "home",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/home1-5/cartographer_imu_final.tum",
+      "odom": "data/prepared/home1-5/odom.tum",
+      "gt": "data/prepared/home1-5/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-1",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-1/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-1/odom.tum",
+      "gt": "data/prepared/office1-1/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-2",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-2/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-2/odom.tum",
+      "gt": "data/prepared/office1-2/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-3",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-3/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-3/odom.tum",
+      "gt": "data/prepared/office1-3/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-4",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-4/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-4/odom.tum",
+      "gt": "data/prepared/office1-4/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-5",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-5/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-5/odom.tum",
+      "gt": "data/prepared/office1-5/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-6",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-6/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-6/odom.tum",
+      "gt": "data/prepared/office1-6/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "office1-7",
+      "scene_id": "office",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/office1-7/cartographer_imu_final.tum",
+      "odom": "data/prepared/office1-7/odom.tum",
+      "gt": "data/prepared/office1-7/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "cafe1-1",
+      "scene_id": "cafe",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/cafe1-1/cartographer_imu_final.tum",
+      "odom": "data/prepared/cafe1-1/odom.tum",
+      "gt": "data/prepared/cafe1-1/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "cafe1-2",
+      "scene_id": "cafe",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/cafe1-2/cartographer_imu_final.tum",
+      "odom": "data/prepared/cafe1-2/odom.tum",
+      "gt": "data/prepared/cafe1-2/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "corridor1-3",
+      "scene_id": "corridor",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/corridor1-3/cartographer_imu_final.tum",
+      "odom": "data/prepared/corridor1-3/odom.tum",
+      "gt": "data/prepared/corridor1-3/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "corridor1-4",
+      "scene_id": "corridor",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/corridor1-4/cartographer_imu_final.tum",
+      "odom": "data/prepared/corridor1-4/odom.tum",
+      "gt": "data/prepared/corridor1-4/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "corridor1-5",
+      "scene_id": "corridor",
+      "dataset_id": "OpenLORIS-Scene",
+      "robot_id": "OpenLORIS_unit_not_verified",
+      "building_id": null,
+      "cart": "data/prepared/corridor1-5/cartographer_imu_final.tum",
+      "odom": "data/prepared/corridor1-5/odom.tum",
+      "gt": "data/prepared/corridor1-5/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel encoder odometry"
+    },
+    {
+      "sequence_id": "nclt-2013-01-10",
+      "scene_id": "nclt",
+      "dataset_id": "NCLT",
+      "robot_id": "Segway_NCLT",
+      "building_id": null,
+      "cart": "data/prepared/nclt-2013-01-10/cartographer_imu_final.tum",
+      "odom": "data/prepared/nclt-2013-01-10/odom.tum",
+      "gt": "data/prepared/nclt-2013-01-10/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized",
+      "odometry_kind": "wheel/FOG/IMU EKF"
+    }
+  ],
+  "limitations": [
+    "Building and OpenLORIS physical robot identity not verified",
+    "NCLT supplies wheel/FOG/IMU fused odometry",
+    "Final optimized Cartographer inputs are offline; online output evaluated separately",
+    "One NCLT session is preliminary cross-dataset evidence, not multi-session generalization"
+  ]
+}

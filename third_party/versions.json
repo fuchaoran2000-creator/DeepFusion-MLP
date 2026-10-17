@@ -1,0 +1,14 @@
+{
+  "cartographer": {
+    "repository": "https://github.com/cartographer-project/cartographer.git",
+    "commit": "877157a0d91788a7700221d87232d412cb3c1ef4"
+  },
+  "cartographer_ros": {
+    "repository": "https://github.com/cartographer-project/cartographer_ros.git",
+    "commit": "c138034db0c47fe0ea5a2abe516acae02190dbf5"
+  },
+  "liw2d": {
+    "repository": "https://github.com/LittleDang/2DLIW-SLAM.git",
+    "commit": "93a9b1525d565dcf2e33f2b4f9b496674490b7e0"
+  }
+}

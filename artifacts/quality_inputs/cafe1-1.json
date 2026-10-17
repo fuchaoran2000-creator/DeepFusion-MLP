@@ -1,0 +1,26 @@
+{
+  "sequence": "cafe1-1",
+  "samples": 570,
+  "quality_present_fraction": 1.0,
+  "bag": "data/prepared/cafe1-1/slam_inputs.bag",
+  "captured_stream_sha256": "167737d3b747630d96ec9fd409b60cc1646b01205d3cf4d1bc3e56799b859f6e",
+  "input_uses_gt": false,
+  "quality_kind": "source-causal geometric proxies and timestamp ages",
+  "arrival_limitation": "historical scan callback arrival times unavailable; source timestamp causality only",
+  "scan_end": "header + last sensor-valid beam index * time_increment, matching Cartographer conversion",
+  "cartographer_range_max_m": 10.0,
+  "quality_names": [
+    "cart_age_s",
+    "odom_age_s",
+    "scan_age_s",
+    "near_hit_fraction",
+    "far_hit_fraction",
+    "sensor_hit_fraction",
+    "near_median_scaled",
+    "near_iqr_scaled",
+    "near_angular_coverage",
+    "near_centroid_scaled",
+    "near_covariance_isotropy",
+    "scan_present"
+  ]
+}

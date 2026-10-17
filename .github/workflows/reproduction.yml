@@ -1,0 +1,17 @@
+name: Numerical reproduction
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  numerical:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: pip
+      - run: python -m pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/reproduce_paper.py --train-smoke

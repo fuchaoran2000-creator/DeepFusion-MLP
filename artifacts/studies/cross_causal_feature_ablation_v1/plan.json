@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "full20",
+    "mask_P_O",
+    "mask_P_C",
+    "mask_D_O",
+    "mask_D_C",
+    "mask_E",
+    "mask_increments",
+    "poses8",
+    "motion_difference12",
+    "relative6_pose",
+    "relative32_pose"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "target": "pose",
+  "max_epochs": 150,
+  "patience": 25,
+  "batch_size": 256,
+  "primary_ablation": "Zero masked groups before training normalization; all seven main variants retain 20 inputs and 7683 parameters.",
+  "compact_controls": "8/12/6/32 actual inputs; every variant has the same pose-residual target.",
+  "input_contract": "causal_grid_v1 actual captured input pairs, shared missing-history reset",
+  "model_selection": "Early stopping and alpha on validation only; no confidence gate in this feature study.",
+  "test_history": "Already inspected public development sequences; not a fresh final holdout."
+}

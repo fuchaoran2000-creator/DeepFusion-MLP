@@ -1,0 +1,17 @@
+{
+  "conditions": 12,
+  "losses": [
+    "frame",
+    "continuous",
+    "gated_reset"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "models": 108,
+  "improved_conditions": 5,
+  "worsened_conditions": 7,
+  "source_plan_sha256": "d131e22e26f60ef5a0184fdd1673b0c36c392934193843159af599676bc2a72d"
+}

@@ -1,0 +1,95 @@
+{
+  "model": "C20",
+  "seed": 11,
+  "parameters": 7782,
+  "architecture": [
+    20,
+    64,
+    64,
+    32,
+    6
+  ],
+  "activation": "ReLU",
+  "heads": "normalized residual mean[3], log variance[3]",
+  "source_checkpoint_sha256": "f4a6f98f890cbfba755007f6b1e1bae9f9ba1e5d3f5be61a239e7e0dc4c5e3a2",
+  "stream_protocol": "causal_grid_v1",
+  "grid_hz": 10.0,
+  "max_input_age_s": 0.15,
+  "config": "full20",
+  "target": "pose",
+  "alpha": 0.65,
+  "gate_parameters": {
+    "sigma_threshold": 0.8439812660217285,
+    "ood_threshold": 8.571044921875,
+    "variance_calibration_scale": 1.1126539818993182,
+    "gate_alpha": 0.65,
+    "gate_validation_ape_m": 0.08978741354543228,
+    "fit_split": "validation"
+  },
+  "normalized_sigma_aggregation": "mean(exp(0.5*clip(log_variance,-8,6)))",
+  "acceptance": "ready AND finite(all six outputs) AND sigma_mean<=sigma_threshold AND max(abs(normalized_feature))<=ood_threshold",
+  "normalization": {
+    "xm": [
+      4.1787309646606445,
+      -0.3272917568683624,
+      0.0031702762935310602,
+      0.15459999442100525,
+      4.380849361419678,
+      -0.4554740786552429,
+      -0.0049301995895802975,
+      0.15906372666358948,
+      0.0017765375087037683,
+      0.0008857273496687412,
+      -0.0027566959615796804,
+      0.9997010231018066,
+      0.0018643370131030679,
+      0.0005369560676626861,
+      -0.0024467085022479296,
+      0.9996731281280518,
+      0.20211757719516754,
+      -0.12818239629268646,
+      0.0301002599298954,
+      0.9983298778533936
+    ],
+    "xs": [
+      2.6112515926361084,
+      2.185434341430664,
+      0.7802412509918213,
+      0.6060627698898315,
+      2.7211456298828125,
+      2.1660430431365967,
+      0.7791855931282043,
+      0.6062535047531128,
+      0.016302065923810005,
+      0.023231323808431625,
+      0.024339275434613228,
+      0.00033708754926919937,
+      0.019938386976718903,
+      0.02444310672581196,
+      0.02548663318157196,
+      0.001067991484887898,
+      0.20142942667007446,
+      0.15841305255889893,
+      0.04925417900085449,
+      0.002266268478706479
+    ],
+    "ym": [
+      0.04394559934735298,
+      0.10406941920518875,
+      -0.012236223556101322
+    ],
+    "ys": [
+      0.08635890483856201,
+      0.08551694452762604,
+      0.013263764791190624
+    ],
+    "clip": [
+      0.31509044531732794,
+      0.43991654880344866,
+      0.07277359974570566
+    ]
+  },
+  "rejection": "publish original Cartographer pose exactly; input gaps clear history without changing origins",
+  "coordinate_flow": "Each estimator first available pose fixes its SE2 input origin; output is inverse-transformed through Cartographer origin. Reference is separately anchored to Cartographer at first common valid tick for labels/scoring only.",
+  "hosting_status": "Archive supplied with this manuscript revision; no public repository URL asserted."
+}

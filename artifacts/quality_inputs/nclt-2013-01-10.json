@@ -1,0 +1,26 @@
+{
+  "sequence": "nclt-2013-01-10",
+  "samples": 10260,
+  "quality_present_fraction": 1.0,
+  "bag": "data/prepared/nclt-2013-01-10/slam_inputs.bag",
+  "captured_stream_sha256": "ef07a0ce9613e2c8a399492f34ba5d724663cd964d43aef6a977a2678f84dd5c",
+  "input_uses_gt": false,
+  "quality_kind": "source-causal geometric proxies and timestamp ages",
+  "arrival_limitation": "historical scan callback arrival times unavailable; source timestamp causality only",
+  "scan_end": "header + last sensor-valid beam index * time_increment, matching Cartographer conversion",
+  "cartographer_range_max_m": 10.0,
+  "quality_names": [
+    "cart_age_s",
+    "odom_age_s",
+    "scan_age_s",
+    "near_hit_fraction",
+    "far_hit_fraction",
+    "sensor_hit_fraction",
+    "near_median_scaled",
+    "near_iqr_scaled",
+    "near_angular_coverage",
+    "near_centroid_scaled",
+    "near_covariance_isotropy",
+    "scan_present"
+  ]
+}

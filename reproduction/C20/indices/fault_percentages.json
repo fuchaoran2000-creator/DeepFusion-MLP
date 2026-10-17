@@ -1,0 +1,10 @@
+{
+  "source": "results/paper_revision/raw_fault_evaluation.json",
+  "source_sha256": "ac9fd7593ab48d87ffc4b90b9618212f731d81de48287fbaed91395348e47b92",
+  "raw_ape_m": 0.17315611136565656,
+  "uncertainty_ape_m": 0.1672461898736997,
+  "raw_rpe_1s_m": 0.03623541590151696,
+  "uncertainty_rpe_1s_m": 0.040728982204722076,
+  "ape_reduction_percent": 3.413059721280509,
+  "rpe_increase_percent": 12.401034157902412
+}

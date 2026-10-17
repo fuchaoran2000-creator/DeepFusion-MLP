@@ -1,0 +1,63 @@
+{
+  "protocol": "complete-sequence isolation; same-scene development benchmark",
+  "isolation_field": null,
+  "train": [
+    "home1-1"
+  ],
+  "validation": [
+    "home1-2"
+  ],
+  "test": [
+    "home1-3",
+    "home1-4",
+    "home1-5"
+  ],
+  "test_history": "Prior use of home1-3/4/5 not independently known; report as development benchmark",
+  "sequences": [
+    {
+      "sequence_id": "home1-1",
+      "scene_id": "home",
+      "robot_id": "openloris_home",
+      "cart": "data/prepared/home1-1/cartographer_noimu_final.tum",
+      "odom": "data/prepared/home1-1/odom.tum",
+      "gt": "data/prepared/home1-1/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized"
+    },
+    {
+      "sequence_id": "home1-2",
+      "scene_id": "home",
+      "robot_id": "openloris_home",
+      "cart": "data/prepared/home1-2/cartographer_noimu_final.tum",
+      "odom": "data/prepared/home1-2/odom.tum",
+      "gt": "data/prepared/home1-2/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized"
+    },
+    {
+      "sequence_id": "home1-3",
+      "scene_id": "home",
+      "robot_id": "openloris_home",
+      "cart": "data/prepared/home1-3/cartographer_noimu_final.tum",
+      "odom": "data/prepared/home1-3/odom.tum",
+      "gt": "data/prepared/home1-3/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized"
+    },
+    {
+      "sequence_id": "home1-4",
+      "scene_id": "home",
+      "robot_id": "openloris_home",
+      "cart": "data/prepared/home1-4/cartographer_noimu_final.tum",
+      "odom": "data/prepared/home1-4/odom.tum",
+      "gt": "data/prepared/home1-4/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized"
+    },
+    {
+      "sequence_id": "home1-5",
+      "scene_id": "home",
+      "robot_id": "openloris_home",
+      "cart": "data/prepared/home1-5/cartographer_noimu_final.tum",
+      "odom": "data/prepared/home1-5/odom.tum",
+      "gt": "data/prepared/home1-5/groundtruth.tum",
+      "trajectory_kind": "offline_final_optimized"
+    }
+  ]
+}

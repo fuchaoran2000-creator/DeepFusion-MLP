@@ -1,0 +1,12 @@
+{
+  "code_2dliw": {
+    "commit": "93a9b1525d565dcf2e33f2b4f9b496674490b7e0",
+    "archive_sha256": "c6338d2483edc0c42b8e626bca1b45cf9b02437f77361512f0c3da45e33ac6c6",
+    "commit_source": "GitHub archive global PAX comment",
+    "compared_files": 59,
+    "locally_modified_files": [],
+    "dataset_configuration_scope": "Generated data/prepared/*/2dliw_config.yaml and ROS input/extrinsic adapter, outside upstream source tree."
+  },
+  "historical_U_checkpoint": "results/mentor_benchmark/home_online_pose_uncertainty/mlp_full20_pose_uncertainty_seed22/model.pt",
+  "primary_O_checkpoint": "results/mentor_benchmark/home_causal_v1/mlp_full20_pose_uncertainty_seed11/model.pt"
+}

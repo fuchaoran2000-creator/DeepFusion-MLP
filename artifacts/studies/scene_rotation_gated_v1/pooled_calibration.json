@@ -1,0 +1,578 @@
+{
+  "pooled_absolute_training_gate/quality44_continuous_seed11": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    "gate": {
+      "sigma_threshold": 0.5776258468627931,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.0,
+      "gate_validation_ape_m": 0.2608722624511297
+    },
+    "checkpoint_sha256": "1a68dd6fa0f0e894a13546689cd964971a331970d95b1dcf412ef4375711bc4a"
+  },
+  "pooled_absolute_pooled_gate/quality44_continuous_seed11": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    "gate": {
+      "sigma_threshold": 0.488217830657959,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.0
+    },
+    "checkpoint_sha256": "1a68dd6fa0f0e894a13546689cd964971a331970d95b1dcf412ef4375711bc4a"
+  },
+  "pooled_relative_training_gate/quality44_continuous_seed11": {
+    "choice": {
+      "alpha": 0.05,
+      "tau_s": 5.0,
+      "validation_score": 0.9999928363009052
+    },
+    "gate": {
+      "sigma_threshold": 0.5776258468627931,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.05,
+      "gate_validation_ape_m": 0.2608722624511297
+    },
+    "checkpoint_sha256": "1a68dd6fa0f0e894a13546689cd964971a331970d95b1dcf412ef4375711bc4a"
+  },
+  "pooled_relative_pooled_gate/quality44_continuous_seed11": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    "gate": {
+      "sigma_threshold": 0.488217830657959,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.0
+    },
+    "checkpoint_sha256": "1a68dd6fa0f0e894a13546689cd964971a331970d95b1dcf412ef4375711bc4a"
+  },
+  "pooled_absolute_training_gate/quality44_continuous_seed22": {
+    "choice": {
+      "alpha": 1.0,
+      "tau_s": 30.0,
+      "validation_score": 0.4913937006877088
+    },
+    "gate": {
+      "sigma_threshold": 0.6732550263404846,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 1.0,
+      "gate_validation_ape_m": 0.25637599204790784
+    },
+    "checkpoint_sha256": "aac9a0d256b42d4f77455512ec12b04ae1f484c3a9fecf919cfa52be2386ba6e"
+  },
+  "pooled_absolute_pooled_gate/quality44_continuous_seed22": {
+    "choice": {
+      "alpha": 0.15000000000000002,
+      "tau_s": 5.0,
+      "validation_score": 0.4881821937051698
+    },
+    "gate": {
+      "sigma_threshold": 0.4844050407409668,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.15000000000000002
+    },
+    "checkpoint_sha256": "aac9a0d256b42d4f77455512ec12b04ae1f484c3a9fecf919cfa52be2386ba6e"
+  },
+  "pooled_relative_training_gate/quality44_continuous_seed22": {
+    "choice": {
+      "alpha": 1.0,
+      "tau_s": 30.0,
+      "validation_score": 0.9874667205003973
+    },
+    "gate": {
+      "sigma_threshold": 0.6732550263404846,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 1.0,
+      "gate_validation_ape_m": 0.25637599204790784
+    },
+    "checkpoint_sha256": "aac9a0d256b42d4f77455512ec12b04ae1f484c3a9fecf919cfa52be2386ba6e"
+  },
+  "pooled_relative_pooled_gate/quality44_continuous_seed22": {
+    "choice": {
+      "alpha": 0.15000000000000002,
+      "tau_s": 5.0,
+      "validation_score": 0.9869070575918968
+    },
+    "gate": {
+      "sigma_threshold": 0.4844050407409668,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.15000000000000002
+    },
+    "checkpoint_sha256": "aac9a0d256b42d4f77455512ec12b04ae1f484c3a9fecf919cfa52be2386ba6e"
+  },
+  "pooled_absolute_training_gate/quality44_continuous_seed33": {
+    "choice": {
+      "alpha": 1.0,
+      "tau_s": null,
+      "validation_score": 0.4784563488706065
+    },
+    "gate": {
+      "sigma_threshold": 0.6775114655494691,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 1.0,
+      "gate_validation_ape_m": 0.24238405797742424
+    },
+    "checkpoint_sha256": "9d34627f2f4436262eeead5b987d017020d77208a65589050b3443a1d420987e"
+  },
+  "pooled_absolute_pooled_gate/quality44_continuous_seed33": {
+    "choice": {
+      "alpha": 0.30000000000000004,
+      "tau_s": 5.0,
+      "validation_score": 0.47480311576929707
+    },
+    "gate": {
+      "sigma_threshold": 0.4631722867488861,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.30000000000000004
+    },
+    "checkpoint_sha256": "9d34627f2f4436262eeead5b987d017020d77208a65589050b3443a1d420987e"
+  },
+  "pooled_relative_training_gate/quality44_continuous_seed33": {
+    "choice": {
+      "alpha": 1.0,
+      "tau_s": null,
+      "validation_score": 0.9489321435570472
+    },
+    "gate": {
+      "sigma_threshold": 0.6775114655494691,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 1.0,
+      "gate_validation_ape_m": 0.24238405797742424
+    },
+    "checkpoint_sha256": "9d34627f2f4436262eeead5b987d017020d77208a65589050b3443a1d420987e"
+  },
+  "pooled_relative_pooled_gate/quality44_continuous_seed33": {
+    "choice": {
+      "alpha": 0.30000000000000004,
+      "tau_s": 5.0,
+      "validation_score": 0.9563286911313016
+    },
+    "gate": {
+      "sigma_threshold": 0.4631722867488861,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.30000000000000004
+    },
+    "checkpoint_sha256": "9d34627f2f4436262eeead5b987d017020d77208a65589050b3443a1d420987e"
+  },
+  "pooled_absolute_training_gate/quality44_frame_seed11": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    "gate": {
+      "sigma_threshold": 0.5776258468627931,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.0,
+      "gate_validation_ape_m": 0.2578728050433954
+    },
+    "checkpoint_sha256": "4795c93b6d88fa960ad6eb56f4a359375b0ffb1ded5a85824938b0dd50d32bc2"
+  },
+  "pooled_absolute_pooled_gate/quality44_frame_seed11": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    "gate": {
+      "sigma_threshold": 0.3840678036212921,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.0
+    },
+    "checkpoint_sha256": "4795c93b6d88fa960ad6eb56f4a359375b0ffb1ded5a85824938b0dd50d32bc2"
+  },
+  "pooled_relative_training_gate/quality44_frame_seed11": {
+    "choice": {
+      "alpha": 0.35000000000000003,
+      "tau_s": 5.0,
+      "validation_score": 0.9991215361091296
+    },
+    "gate": {
+      "sigma_threshold": 0.5776258468627931,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.35000000000000003,
+      "gate_validation_ape_m": 0.2578728050433954
+    },
+    "checkpoint_sha256": "4795c93b6d88fa960ad6eb56f4a359375b0ffb1ded5a85824938b0dd50d32bc2"
+  },
+  "pooled_relative_pooled_gate/quality44_frame_seed11": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    "gate": {
+      "sigma_threshold": 0.3840678036212921,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.0
+    },
+    "checkpoint_sha256": "4795c93b6d88fa960ad6eb56f4a359375b0ffb1ded5a85824938b0dd50d32bc2"
+  },
+  "pooled_absolute_training_gate/quality44_frame_seed22": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    "gate": {
+      "sigma_threshold": 0.6732550263404846,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.0,
+      "gate_validation_ape_m": 0.26227872566524035
+    },
+    "checkpoint_sha256": "13c57390bac74b20a4f52de3de2bd0e57bdc27b5afc17cb6c2c89ed56249ed11"
+  },
+  "pooled_absolute_pooled_gate/quality44_frame_seed22": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 0.4952112887406228
+    },
+    "gate": {
+      "sigma_threshold": 0.4334779679775238,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.0
+    },
+    "checkpoint_sha256": "13c57390bac74b20a4f52de3de2bd0e57bdc27b5afc17cb6c2c89ed56249ed11"
+  },
+  "pooled_relative_training_gate/quality44_frame_seed22": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    "gate": {
+      "sigma_threshold": 0.6732550263404846,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.0,
+      "gate_validation_ape_m": 0.26227872566524035
+    },
+    "checkpoint_sha256": "13c57390bac74b20a4f52de3de2bd0e57bdc27b5afc17cb6c2c89ed56249ed11"
+  },
+  "pooled_relative_pooled_gate/quality44_frame_seed22": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    "gate": {
+      "sigma_threshold": 0.4334779679775238,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.0
+    },
+    "checkpoint_sha256": "13c57390bac74b20a4f52de3de2bd0e57bdc27b5afc17cb6c2c89ed56249ed11"
+  },
+  "pooled_absolute_training_gate/quality44_frame_seed33": {
+    "choice": {
+      "alpha": 1.0,
+      "tau_s": 5.0,
+      "validation_score": 0.48605421928331316
+    },
+    "gate": {
+      "sigma_threshold": 0.6775114655494691,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 1.0,
+      "gate_validation_ape_m": 0.2610837377056286
+    },
+    "checkpoint_sha256": "b0eb7fcbfff6b93008324e6fb0d9f068dcb4802cdec7d50c1914ecfd9b365e7b"
+  },
+  "pooled_absolute_pooled_gate/quality44_frame_seed33": {
+    "choice": {
+      "alpha": 0.45,
+      "tau_s": 5.0,
+      "validation_score": 0.4838283750407804
+    },
+    "gate": {
+      "sigma_threshold": 0.6114246249198914,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.45
+    },
+    "checkpoint_sha256": "b0eb7fcbfff6b93008324e6fb0d9f068dcb4802cdec7d50c1914ecfd9b365e7b"
+  },
+  "pooled_relative_training_gate/quality44_frame_seed33": {
+    "choice": {
+      "alpha": 1.0,
+      "tau_s": 5.0,
+      "validation_score": 0.9811735046561461
+    },
+    "gate": {
+      "sigma_threshold": 0.6775114655494691,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 1.0,
+      "gate_validation_ape_m": 0.2610837377056286
+    },
+    "checkpoint_sha256": "b0eb7fcbfff6b93008324e6fb0d9f068dcb4802cdec7d50c1914ecfd9b365e7b"
+  },
+  "pooled_relative_pooled_gate/quality44_frame_seed33": {
+    "choice": {
+      "alpha": 0.35000000000000003,
+      "tau_s": 5.0,
+      "validation_score": 0.9861512565687625
+    },
+    "gate": {
+      "sigma_threshold": 0.6114246249198914,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.35000000000000003
+    },
+    "checkpoint_sha256": "b0eb7fcbfff6b93008324e6fb0d9f068dcb4802cdec7d50c1914ecfd9b365e7b"
+  },
+  "pooled_absolute_training_gate/quality44_gated_reset_seed11": {
+    "choice": {
+      "alpha": 0.15000000000000002,
+      "tau_s": 5.0,
+      "validation_score": 0.49516289973058447
+    },
+    "gate": {
+      "sigma_threshold": 0.5776258468627931,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.15000000000000002,
+      "gate_validation_ape_m": 0.2541279751095673
+    },
+    "checkpoint_sha256": "8c55948432b16bbe13f6464a35da73aafb33f63e577ca084c11800cf1521d812"
+  },
+  "pooled_absolute_pooled_gate/quality44_gated_reset_seed11": {
+    "choice": {
+      "alpha": 0.1,
+      "tau_s": 5.0,
+      "validation_score": 0.49449974195218604
+    },
+    "gate": {
+      "sigma_threshold": 0.49236229062080383,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.1
+    },
+    "checkpoint_sha256": "8c55948432b16bbe13f6464a35da73aafb33f63e577ca084c11800cf1521d812"
+  },
+  "pooled_relative_training_gate/quality44_gated_reset_seed11": {
+    "choice": {
+      "alpha": 0.8,
+      "tau_s": 5.0,
+      "validation_score": 0.9947177254988282
+    },
+    "gate": {
+      "sigma_threshold": 0.5776258468627931,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.8,
+      "gate_validation_ape_m": 0.2541279751095673
+    },
+    "checkpoint_sha256": "8c55948432b16bbe13f6464a35da73aafb33f63e577ca084c11800cf1521d812"
+  },
+  "pooled_relative_pooled_gate/quality44_gated_reset_seed11": {
+    "choice": {
+      "alpha": 0.2,
+      "tau_s": 5.0,
+      "validation_score": 0.9972876590025332
+    },
+    "gate": {
+      "sigma_threshold": 0.49236229062080383,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.2
+    },
+    "checkpoint_sha256": "8c55948432b16bbe13f6464a35da73aafb33f63e577ca084c11800cf1521d812"
+  },
+  "pooled_absolute_training_gate/quality44_gated_reset_seed22": {
+    "choice": {
+      "alpha": 0.2,
+      "tau_s": null,
+      "validation_score": 0.4949739310892153
+    },
+    "gate": {
+      "sigma_threshold": 0.6732550263404846,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.2,
+      "gate_validation_ape_m": 0.26338922677217946
+    },
+    "checkpoint_sha256": "41d2eeef894068d9304aea80b2ad4fd16d2b6ef77d6466c215641964119c51c2"
+  },
+  "pooled_absolute_pooled_gate/quality44_gated_reset_seed22": {
+    "choice": {
+      "alpha": 0.05,
+      "tau_s": null,
+      "validation_score": 0.48966305331838156
+    },
+    "gate": {
+      "sigma_threshold": 0.5168496966362,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.05
+    },
+    "checkpoint_sha256": "41d2eeef894068d9304aea80b2ad4fd16d2b6ef77d6466c215641964119c51c2"
+  },
+  "pooled_relative_training_gate/quality44_gated_reset_seed22": {
+    "choice": {
+      "alpha": 0.0,
+      "tau_s": null,
+      "validation_score": 1.0
+    },
+    "gate": {
+      "sigma_threshold": 0.6732550263404846,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.0,
+      "gate_validation_ape_m": 0.26338922677217946
+    },
+    "checkpoint_sha256": "41d2eeef894068d9304aea80b2ad4fd16d2b6ef77d6466c215641964119c51c2"
+  },
+  "pooled_relative_pooled_gate/quality44_gated_reset_seed22": {
+    "choice": {
+      "alpha": 0.05,
+      "tau_s": 30.0,
+      "validation_score": 0.9938771257668231
+    },
+    "gate": {
+      "sigma_threshold": 0.5168496966362,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.05
+    },
+    "checkpoint_sha256": "41d2eeef894068d9304aea80b2ad4fd16d2b6ef77d6466c215641964119c51c2"
+  },
+  "pooled_absolute_training_gate/quality44_gated_reset_seed33": {
+    "choice": {
+      "alpha": 0.2,
+      "tau_s": null,
+      "validation_score": 0.4950555490058135
+    },
+    "gate": {
+      "sigma_threshold": 0.6775114655494691,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.2,
+      "gate_validation_ape_m": 0.26302556801510946
+    },
+    "checkpoint_sha256": "fb54a9b1be0f888afc737c4084c81369db35682cd3783da3dcfdcb2c35915282"
+  },
+  "pooled_absolute_pooled_gate/quality44_gated_reset_seed33": {
+    "choice": {
+      "alpha": 0.4,
+      "tau_s": 5.0,
+      "validation_score": 0.4930399792428621
+    },
+    "gate": {
+      "sigma_threshold": 0.4433509409427643,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.4
+    },
+    "checkpoint_sha256": "fb54a9b1be0f888afc737c4084c81369db35682cd3783da3dcfdcb2c35915282"
+  },
+  "pooled_relative_training_gate/quality44_gated_reset_seed33": {
+    "choice": {
+      "alpha": 0.25,
+      "tau_s": null,
+      "validation_score": 0.9991041122474282
+    },
+    "gate": {
+      "sigma_threshold": 0.6775114655494691,
+      "ood_threshold": 9.441078033447274,
+      "fit_split": "training_warmup_input_only",
+      "warmup_epochs": 5,
+      "thresholds_frozen_before_validation": true,
+      "gate_alpha": 0.25,
+      "gate_validation_ape_m": 0.26302556801510946
+    },
+    "checkpoint_sha256": "fb54a9b1be0f888afc737c4084c81369db35682cd3783da3dcfdcb2c35915282"
+  },
+  "pooled_relative_pooled_gate/quality44_gated_reset_seed33": {
+    "choice": {
+      "alpha": 0.6000000000000001,
+      "tau_s": 5.0,
+      "validation_score": 0.9886382052238427
+    },
+    "gate": {
+      "sigma_threshold": 0.4433509409427643,
+      "ood_threshold": 88.11724853515625,
+      "fit_split": "cafe_corridor_validation",
+      "weights": "equal scenes, equal sequences within scene, equal ready frames within sequence",
+      "gate_alpha": 0.6000000000000001
+    },
+    "checkpoint_sha256": "fb54a9b1be0f888afc737c4084c81369db35682cd3783da3dcfdcb2c35915282"
+  }
+}

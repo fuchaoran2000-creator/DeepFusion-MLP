@@ -1,0 +1,117 @@
+{
+  "scope": "Current validation-selected 20D actual paired Home correction plus tight/IMU SLAM alternatives; Corridor SLAM-only panel.",
+  "source_slam_runs": "Independent ROS replays; performance depends on configuration and sensor budget.",
+  "models_reselected": false,
+  "training_or_configuration_changes": false,
+  "timing_scope": "One-times paced replay wall time is not pure computation time; correction callback and SLAM child RSS kept separate.",
+  "sources": [
+    {
+      "path": "data/prepared/home1-3/cartographer_noimu_online_unified20.tum",
+      "sha256": "43ffaae27e1f0320d7ce5fbc717f21b4a397790b7939abba886ee0e7ad55e28a"
+    },
+    {
+      "path": "data/prepared/home1-3/cartographer_imu_online_v2.tum",
+      "sha256": "b6ec87a400dffe42a124299f31438c32b5193f679471b7e07fc02d2a0a150234"
+    },
+    {
+      "path": "data/prepared/home1-3/2dliw_online_v2.tum",
+      "sha256": "f28b3abb338816417fe6f1bfe472d6ab8f20362335c90ea4a06d0e791ee0674a"
+    },
+    {
+      "path": "data/prepared/home1-3/cartographer_noimu_corrected_online_unified20.tum",
+      "sha256": "aee8b66a3eb84f07d0319c16513d64520b5b2972f47852ddbd8443811ef4984c"
+    },
+    {
+      "path": "data/prepared/home1-3/odom.tum",
+      "sha256": "cc1e10964d07fddde0cb4ee4f3b07e50d552a05b15405bf932e60a5fb702fe36"
+    },
+    {
+      "path": "data/prepared/home1-4/cartographer_noimu_online_unified20.tum",
+      "sha256": "80ac5011aa215faec18c211f2dcb33404867ad06839b237a6f252fcd2f294af9"
+    },
+    {
+      "path": "data/prepared/home1-4/cartographer_imu_online_v2.tum",
+      "sha256": "b3fdbfefd7fbcda00e3ae9b7ead42858544a8d9e03540b6c87754ff1406e80ac"
+    },
+    {
+      "path": "data/prepared/home1-4/2dliw_online_v2.tum",
+      "sha256": "94e4476351b5326ef03d59854073a4b9f3b73f7feeac832f028a23539a79ad38"
+    },
+    {
+      "path": "data/prepared/home1-4/cartographer_noimu_corrected_online_unified20.tum",
+      "sha256": "091a22357992dccde4b07e146b51a5371846072122502f12c26291236df0e140"
+    },
+    {
+      "path": "data/prepared/home1-4/odom.tum",
+      "sha256": "cd2c62e36c69af65c35b0a1107b7e9ffc0ad772866529386f69be474553b247d"
+    },
+    {
+      "path": "data/prepared/home1-5/cartographer_noimu_online_unified20.tum",
+      "sha256": "383bd08d02feb29dc003c4d2de4e856c74a63a12d3f2375dbf95b45ea1c9e977"
+    },
+    {
+      "path": "data/prepared/home1-5/cartographer_imu_online_v2.tum",
+      "sha256": "98bd6776e88a9aae53451f9bb7b8fc28cbe4d288333deb3d3e632c9c23872553"
+    },
+    {
+      "path": "data/prepared/home1-5/2dliw_online_v2.tum",
+      "sha256": "3808c0d68ef702040f58c1d1b52267ff5ae69e15ac5019c691ae1a62d337135d"
+    },
+    {
+      "path": "data/prepared/home1-5/cartographer_noimu_corrected_online_unified20.tum",
+      "sha256": "e3e19cefe342fc787381a4d6d3b353cda7275dff503fe6f32ca6b89bba87ebf9"
+    },
+    {
+      "path": "data/prepared/home1-5/odom.tum",
+      "sha256": "fb4c3c7ddcb9bd5bff346453d00e0a2b7862535ed28b176135adba280baec654"
+    },
+    {
+      "path": "data/prepared/corridor1-3/cartographer_noimu_online_crossscene.tum",
+      "sha256": "a5e161331421057cd5916fcbab274b38760b918a02a2e3acc236670cc538963a"
+    },
+    {
+      "path": "data/prepared/corridor1-3/cartographer_imu_online_crossscene.tum",
+      "sha256": "1f208c28171822745777895fa04a49428131766f739999becd3b6505313f495f"
+    },
+    {
+      "path": "data/prepared/corridor1-3/2dliw_online_crossscene.tum",
+      "sha256": "7925e5d185e14b50684586540732abd5519e5a134359c750e771dab6774c89b6"
+    },
+    {
+      "path": "data/prepared/corridor1-3/odom.tum",
+      "sha256": "57dd5ed3c7559b502328aac9e7d09d207da58b26a7498a52c88d777415daf5c9"
+    },
+    {
+      "path": "data/prepared/corridor1-4/cartographer_noimu_online_crossscene.tum",
+      "sha256": "7adfeb66ce4b2d5d4459cd5c7350f7a6c6306be224613d4d917227834303bd02"
+    },
+    {
+      "path": "data/prepared/corridor1-4/cartographer_imu_online_crossscene.tum",
+      "sha256": "eff7e6eceb92cc4758c800410eb1b7a3063dbfd0c3ff83e271e2199e11e7c17f"
+    },
+    {
+      "path": "data/prepared/corridor1-4/2dliw_online_crossscene.tum",
+      "sha256": "50c5dea214416e1523468e882b8c88de2827e91a19c69656a4c3a3613b27cdf5"
+    },
+    {
+      "path": "data/prepared/corridor1-4/odom.tum",
+      "sha256": "55e0f27e16d8b580e7acfe42f2f83e18fca686d1060b4dd359dddd3e3d420b3b"
+    },
+    {
+      "path": "data/prepared/corridor1-5/cartographer_noimu_online_crossscene.tum",
+      "sha256": "7885f2bc4c968d17a12a5b125357cc4dff873722085c479f2836ac1703a15023"
+    },
+    {
+      "path": "data/prepared/corridor1-5/cartographer_imu_online_crossscene.tum",
+      "sha256": "030893824884dc225f84e7a07a3b2c2f5de3bc9b06a6164e31612d3fc6bb5458"
+    },
+    {
+      "path": "data/prepared/corridor1-5/2dliw_online_crossscene.tum",
+      "sha256": "068db5e33ab6fd9c034f743cb06820f0ecad3851ec81a90e3d87444d261ff578"
+    },
+    {
+      "path": "data/prepared/corridor1-5/odom.tum",
+      "sha256": "a5f1c973a88044a0ddefa12499e1af4dc3f40130ec9de35d8298ad2f43a1f122"
+    }
+  ]
+}
